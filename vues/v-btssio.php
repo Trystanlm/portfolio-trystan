@@ -1,5 +1,5 @@
 <div class="col">
-    <h1>Présentation de la formation</h1>
+    <h1 class="text-gradient text-center mt-5">Présentation de la formation</h1>
     <h3> Le BTS SIO <br> _____ </h3>
     <div class="row">
         <div class="col-6">
@@ -115,12 +115,6 @@
         /* Texte en blanc */
     }
 
-    h1 {
-        color: white;
-        font-weight: bold;
-        margin-top: 50px;
-        text-align: center;
-    }
 
     h3 {
         color: #FF842D;

@@ -1,11 +1,11 @@
 <div class="col">
-    <h1>La Veille Technologique</h1>
+    <h1 class="text-gradient">La Veille Technologique</h1>
     <h3>Qu'est-ce que la veille technologique ? <br> _____ </h3>
     <p class="description">La veille technologique est le processus qui consiste à surveiller l’évolution des technologies et à identifier les nouvelles tendances qui peuvent avoir un impact sur l’activité d’une entreprise ou d’un individu. Elle permet de se tenir informé des dernières innovations pour anticiper les changements et prendre des décisions éclairées.</p>
-    
+
     <h3>Pourquoi est-elle importante ? <br> _____</h3>
     <p>La veille technologique joue un rôle crucial dans un environnement en constante évolution. Elle permet aux entreprises de rester compétitives en exploitant les dernières innovations, en réduisant les risques d’obsolescence et en améliorant leur capacité d’adaptation. De plus, elle aide à mieux anticiper les besoins futurs et à orienter les choix stratégiques.</p>
-    
+
     <h3>Les étapes de la veille technologique<br> _____</h3>
     <div class="row">
         <div class="col-4">

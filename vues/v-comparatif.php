@@ -66,7 +66,7 @@
                                 <tr>
                                     <td>Sécurité et Protection des données</td>
                                     <td>Respect de la RGPD</td>
-                                    <td>Aucune données personnelles manipulées</td>
+                                    <td>Aucune donnée personnelle manipulée</td>
                                 </tr>
                                 <tr>
                                     <td>Gestion des données</td>

@@ -18,6 +18,9 @@
                     <a class="nav-link" href="index.php?uc=profil">Profil</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="index.php?uc=certif">Certifications</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="index.php?uc=bts">BTS SIO</a>
                 </li>
                 <li class="nav-item">
@@ -53,16 +56,16 @@
     }
 
     .nav-link {
-    padding: 8px 12px;
-    display: block;
-    border-radius: 5px;
-    transition: background-color 0.2s ease;
-}
+        padding: 8px 12px;
+        display: block;
+        border-radius: 5px;
+        transition: background-color 0.2s ease;
+    }
 
-.nav-link:hover {
-    background-color: orange;
-    color: white;
-}
+    .nav-link:hover {
+        background-color: orange;
+        color: white;
+    }
 
     .nav-item .nav-link.active {
         color: #FFF;

@@ -66,11 +66,4 @@
         transform: scale(1.03);
         background: linear-gradient(90deg, #ff7a7a, #ffb580, #ff7a7a);
     }
-
-    .text-gradient {
-        background: linear-gradient(to right, #FF5A5A, #FF9966);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-weight: bold;
-    }
 </style>

@@ -55,6 +55,9 @@
                 include 'vues/v-profil.php'; // On inclut la vue de profil
                 break;
 
+            case 'certif':
+                include 'vues/v-certifications.php'; // On inclut la vue de contact
+                break;
             case 'bts':
                 include 'vues/v-btssio.php'; // On inclut la vue de bts
                 break;
@@ -116,6 +119,12 @@
         flex: 1;
     }
 
+    .text-gradient {
+        background: linear-gradient(to right, #FF5A5A, #FF9966);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+    }
 
     main {
         flex: 1;
