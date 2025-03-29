@@ -47,6 +47,9 @@
             case 'contact':
                 include 'vues/v-contact.php'; // On inclut la vue de contact
                 break;
+            case 'formulaireSend':
+                include 'controleurs/formulaire.php'; // On inclut le controleur de formulaire
+                break;
 
             case 'profil':
                 include 'vues/v-profil.php'; // On inclut la vue de profil
