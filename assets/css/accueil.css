@@ -1,0 +1,74 @@
+.txt{
+    color: #FF842D;
+}
+.content{
+    margin-top:150px;
+    margin-left: 50px;
+}
+
+.wrapper{
+    display: inline-flex;
+}
+.txt-little{
+    font-size: 30px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.static-txt{
+    font-size: 80px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.wrapper .static-txt{
+    font-size: 60px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.wrapper .dynamic-txts{
+    margin-left: 15px;
+    line-height: 90px;
+    height: 90px;
+    overflow: hidden;
+}
+
+.dynamic-txts li{
+    color: #FC6D6D;
+    list-style: none;
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 6s steps(4) infinite;
+}
+
+@keyframes slide{
+    100%{
+       top: -360px
+    }
+
+}
+
+.dynamic-txts li span{
+    position: relative;
+}
+.dynamic-txts li span::after{
+    content:"";
+    position: absolute;
+    height: 110%;
+    width: 100%;
+    background: #191919;
+    border-left: 3px solid #FC6D6D;
+    left: 0;
+    animation: typing 1.5s steps(11) infinite;
+}
+
+@keyframes typing{
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px
+    }
+
+}
