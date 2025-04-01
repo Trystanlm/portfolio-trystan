@@ -32,11 +32,146 @@
             <p>Comparatif des deux entreprises</p>
         </div>
     </div>
+    <hr class="border border-1 opacity-100">
+    <div class="container">
+        <h4>Compétences acquises</h3>
+            <div class="table-responsive">
+                <table class="table table-bordered text-white align-middle" style="background-color: transparent; border-color: rgba(255, 255, 255, 0.2);">
+                    <thead class="text-white">
+                        <tr class="text-center">
+                            <th>Entreprise</th>
+                            <th colspan="6">TEKIN</th>
+                        </tr>
+                        <tr class="text-center">
+                            <th>Compétences / Réalisation Pro</th>
+                            <th>TEKIN</th>
+                            <th>Exaegis</th>
+                            <th>TEKIN</th>
+                            <th>Exaegis</th>
+                            <th>TEKIN</th>
+                            <th>Exaegis</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    </div>
 </div>
 
 
-
 <style>
+    table,
+    th,
+    td {
+        color: white !important;
+        background-color: transparent !important;
+    }
+
+    td {
+        width: 10px;
+    }
+
     h3 {
         color: white;
         margin-bottom: 50px;
