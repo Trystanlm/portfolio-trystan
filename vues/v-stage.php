@@ -44,12 +44,12 @@
                         </tr>
                         <tr class="text-center">
                             <th>Compétences / Réalisation Pro</th>
-                            <th>TEKIN</th>
-                            <th>Exaegis</th>
-                            <th>TEKIN</th>
-                            <th>Exaegis</th>
-                            <th>TEKIN</th>
-                            <th>Exaegis</th>
+                            <th>Gérer le patrimoine informatique</th>
+                            <th>Répondre aux incidents et aux demandes d'assistance et d'évolution</th>
+                            <th>Développer la présence en ligne de l'oganisation</th>
+                            <th>Travailler en mode projet</th>
+                            <th>Mettre à disposition des utilisateurs un service informatique</th>
+                            <th>Organiser son développement professionnel</th>
                         </tr>
                     </thead>
                     <tbody>
