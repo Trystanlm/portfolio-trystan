@@ -31,6 +31,20 @@
                 include 'controleurs/formulaire.php'; // On inclut le controleur de formulaire
                 break;
 
+            // Situations professionnels
+            case 'sp1':
+                include 'vues/situation_pro/v-sp1.php';
+                break;
+            case 'sp2':
+                include 'vues/situation_pro/v-sp2.php';
+                break;
+            case 'sp3':
+                include 'vues/situation_pro/v-sp3.php';
+                break;
+            case 'sp4':
+                include 'vues/situation_pro/v-sp4.php';
+                break;
+
             case 'profil':
                 include 'vues/v-profil.php'; // On inclut la vue de profil
                 break;

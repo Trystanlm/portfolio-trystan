@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-custom">
     <div class="container">
         <!-- Titre / Nom de la marque -->
-        <a class="navbar-brand" href="#" style="color: #8C8C8C; margin-right: 30px;">Trystan Le Marec</a>
+        <a class="navbar-brand" href="index.php?uc=accueil" style="color: #8C8C8C; margin-right: 30px;">Trystan Le Marec</a>
 
         <!-- Bouton burger -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

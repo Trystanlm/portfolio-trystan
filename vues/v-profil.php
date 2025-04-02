@@ -5,6 +5,10 @@
         Je m’appelle Trystan Le Marec, âgé de 19 ans et actuellement étudiant à Tours, en deuxième année de BTS SIO spécialité SLAM.
         J’ai toujours été attiré par l’informatique et les nouvelles technologies. C’est tout naturellement que je me suis tourné vers ce secteur d’études.
     </p>
+    <a href="chemin/vers/ton-cv.pdf" class="btn-cv" target="_blank">
+        Télécharger mon CV
+    </a>
+
 
     <!-- Expériences professionnelles -->
     <h4 class="mt-5 mb-3">– EXPÉRIENCES PROFESSIONNELLES</h4>
@@ -77,7 +81,7 @@
                             <h5 class="mb-3 comptxt">Détails</h5>
                             <ul class="list-unstyled">
                                 <li>✔ Requêtes SQL (jointures, sous-requêtes)</li>
-                                <li>✔ phpMyAdmin, SQLServer, SQLite</li>
+                                <li>✔ MariaDB, SQLServer, SQLite</li>
                                 <li>✔ Conception MCD/MLD</li>
                             </ul>
                         </div>
@@ -184,6 +188,23 @@
     h2,
     h1 {
         color: #FF5A5A;
+    }
+
+
+    .btn-cv {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #e63946;
+        /* rouge clair pour s'accorder au thème */
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-cv:hover {
+        background-color: #d62828;
     }
 
 
