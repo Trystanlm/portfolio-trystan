@@ -1,11 +1,5 @@
 <div class="container mt-5">
     <h1 class="text-center text-gradient mb-4">Certifications</h1>
-    <h3>Certifications obtenues durant le BTS SIO <br> _____</h3>
-    <p>Au cours de mes deux années de BTS Services Informatiques aux Organisations (SIO), j’ai eu l’opportunité de passer plusieurs certifications professionnelles. Celles-ci visent à renforcer mes compétences techniques, à valider mes acquis et à me préparer aux exigences du monde professionnel.
-
-        Ces certifications couvrent des domaines clés de l’informatique, tels que la cybersécurité, la programmation, la gestion de projet ou encore les bonnes pratiques IT. Elles témoignent de mon engagement dans une démarche de professionnalisation continue et viennent compléter la formation théorique dispensée en BTS.
-
-        L’obtention de ces certifications me permet d'attester de mes compétences sur des outils, technologies ou méthodologies reconnus dans le secteur, et d’enrichir mon profil technique en vue d'une insertion rapide et efficace dans le monde du travail.</p>
     <h3>Mon parcours<br> _____</h3>
     <div class="timeline">
         <div class="timeline-item left">
