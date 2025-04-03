@@ -1,107 +1,202 @@
-<div class="col">
-    <h1 class="text-gradient">La Veille Technologique</h1>
-    <h3>Qu'est-ce que la veille technologique ? <br> _____ </h3>
-    <p class="description">La veille technologique est le processus qui consiste à surveiller l’évolution des technologies et à identifier les nouvelles tendances qui peuvent avoir un impact sur l’activité d’une entreprise ou d’un individu. Elle permet de se tenir informé des dernières innovations pour anticiper les changements et prendre des décisions éclairées.</p>
+<div class="container my-5 text-white">
+    <h2 class="text-gradient text-center mb-4">Veille Technologique – Java</h2>
 
-    <h3>Pourquoi est-elle importante ? <br> _____</h3>
-    <p>La veille technologique joue un rôle crucial dans un environnement en constante évolution. Elle permet aux entreprises de rester compétitives en exploitant les dernières innovations, en réduisant les risques d’obsolescence et en améliorant leur capacité d’adaptation. De plus, elle aide à mieux anticiper les besoins futurs et à orienter les choix stratégiques.</p>
+    <!-- Définition -->
+    <section class="mb-5">
+        <h4 class="text-gradient mb-3">Qu’est-ce que la veille technologique ?</h4>
+        <p>
+            La veille technologique est un processus de collecte continue d’informations sur les avancées techniques, les outils, les langages ou les tendances dans un domaine précis. Elle permet de rester à jour, d’anticiper les évolutions et de s’adapter aux nouvelles technologies.
+        </p>
+    </section>
+    <img src="./assets/img/cycle-veille.png" class="rounded mx-auto d-block" width="40%" height="40%">
 
-    <h3>Les étapes de la veille technologique<br> _____</h3>
-    <div class="row">
-        <div class="col-4">
-            <div class="step-card">
-                <h4>1. Identification des besoins</h4>
-                <p>La première étape consiste à définir les objectifs de la veille en fonction des besoins spécifiques de l’entreprise ou du projet. Cela permet de mieux orienter la recherche d’informations et d’identifier les domaines à surveiller de près.</p>
-            </div>
-        </div>
-        <div class="col-4">
-            <div class="step-card">
-                <h4>2. Collecte d'informations</h4>
-                <p>Cette étape implique la recherche d’informations pertinentes à partir de sources fiables comme les publications spécialisées, les rapports d’analyse, les conférences, les blogs ou les forums d'experts.</p>
-            </div>
-        </div>
-        <div class="col-4">
-            <div class="step-card">
-                <h4>3. Analyse et traitement des données</h4>
-                <p>Une fois l’information collectée, il est essentiel de l’analyser, de la trier et de l’organiser. Cela permet de dégager les tendances, de comprendre les enjeux et de repérer les opportunités ou les menaces pour l'entreprise.</p>
-            </div>
-        </div>
-    </div>
 
-    <div class="row">
-        <div class="col-4">
-            <div class="step-card">
-                <h4>4. Diffusion des résultats</h4>
-                <p>Les informations traitées doivent être communiquées aux bonnes personnes au sein de l'organisation. Des rapports ou des résumés clairs sont nécessaires pour faciliter la prise de décision.</p>
-            </div>
-        </div>
-        <div class="col-4">
-            <div class="step-card">
-                <h4>5. Suivi et mise à jour</h4>
-                <p>Il est important de suivre régulièrement l’évolution des technologies et de mettre à jour la veille en fonction des nouvelles découvertes, pour rester toujours à la pointe de l'innovation.</p>
-            </div>
-        </div>
-    </div>
+    <!-- Ton projet -->
+    <section class="mb-5">
+        <h4 class="text-gradient mb-3">Outils mis en place</h4>
+        <p>
+            J'ai tout d'abord décider de choisir <strong>Java</strong> comme thème de veille
+        </p>
+        <div class="row g-4">
 
-    <h3>Outils et Méthodes de la Veille Technologique<br> _____</h3>
-    <p>Les outils utilisés pour la veille technologique incluent des plateformes de surveillance des tendances, des agrégateurs de contenu, des alertes Google, ainsi que des logiciels d'analyse de données. Les méthodes employées incluent la veille passive (suivi des publications) et la veille active (recherche proactive d'informations).</p>
+            <!-- BotFather -->
+            <div class="col-md-4">
+                <div class="card bg-secondary bg-opacity-10 h-100 text-center border rounded-4 shadow-sm p-4">
+                    <div class="icon-circle mb-3">
+                        <i class="bi bi-robot fs-1 text-danger"></i>
+                    </div>
+                    <h5 class="text-danger mb-3">BotFather<br>________</h5>
+                    <p>BotFather permet de créer et gérer des bots Telegram. Il m’a servi à générer un token pour connecter mon bot à l’API Telegram.</p>
+                </div>
+            </div>
 
-    <h3>Conclusion<br> _____</h3>
-    <p>En conclusion, la veille technologique est un atout indispensable pour tout professionnel ou entreprise souhaitant rester compétitif dans un monde numérique en constante évolution. Elle permet d'identifier les nouvelles tendances, d'anticiper les innovations, et de préparer des stratégies d’adaptation efficaces.</p>
+            <!-- Python -->
+            <div class="col-md-4">
+                <div class="card bg-secondary bg-opacity-10 h-100 text-center border rounded-4 shadow-sm p-4">
+                    <div class="icon-circle mb-3">
+                        <i class="bi bi-code-slash fs-1 text-danger"></i>
+                    </div>
+                    <h5 class="text-danger mb-3">Python<br>________</h5>
+                    <p>Le bot est codé en Python. Il utilise des bibliothèques comme <code>feedparser</code> pour lire les flux RSS, et <code>requests</code> pour envoyer des messages.</p>
+                </div>
+            </div>
+
+            <!-- Telegram -->
+            <div class="col-md-4">
+                <div class="card bg-secondary bg-opacity-10 h-100 text-center border rounded-4 shadow-sm p-4">
+                    <div class="icon-circle mb-3">
+                        <i class="bi bi-telegram fs-1 text-danger"></i>
+                    </div>
+                    <h5 class="text-danger mb-3">Telegram<br>________</h5>
+                    <p>Telegram reçoit automatiquement les actualités liées à Java via le bot. Cela me permet de suivre les nouveautés directement sur mon smartphone et de les partager aux autres personnes de mon canal</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Articles -->
+    <section>
+        <h4 class="text-gradient mb-3">L'évolution de ma veille</h4>
+        <div class="accordion accordion-flush" id="veilleAccordion">
+
+            <!-- Article 1 -->
+            <div class="accordion-item bg-dark text-white border-secondary rounded-3 mb-3">
+                <h2 class="accordion-header" id="heading1">
+                    <button class="accordion-button collapsed bg-secondary bg-opacity-25 text-danger fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                        09/2023 : Sortie de Java 23 – Nouvelles fonctionnalités clés
+                    </button>
+                </h2>
+                <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#veilleAccordion">
+                    <div class="accordion-body d-flex flex-column flex-md-row gap-4 align-items-center">
+                        <img src="./assets/img/java.png" class="rounded-3" style="max-width: 250px;" alt="Java 23">
+                        <div>
+                            <p>Java 23 introduit 12 nouvelles fonctionnalités (JEP), avec des améliorations de performance, de sécurité, et l’intégration de Graal JIT. Idéal pour les applis modernes.</p>
+                            <a href="https://www.oracle.com/ca-fr/news/announcement/oracle-releases-java-23-2024-09-17/" class="text-decoration-none text-danger" target="_blank">
+                                <i class="bi bi-box-arrow-up-right me-1"></i>Voir l’article
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Article 2 -->
+            <div class="accordion-item bg-dark text-white border-secondary rounded-3 mb-3">
+                <h2 class="accordion-header" id="heading2">
+                    <button class="accordion-button collapsed bg-secondary bg-opacity-25" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+                        03/2024 : Java 24 – Performances et consommation mémoire améliorées
+                    </button>
+                </h2>
+                <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#veilleAccordion">
+                    <div class="accordion-body d-flex flex-column flex-md-row gap-4 align-items-center">
+                        <img src="./assets/img/java.png" class="rounded-3" style="max-width: 250px;" alt="Java 24">
+                        <div>
+                            <p>Java 24 améliore la vitesse d'exécution, réduit la mémoire utilisée et optimise les performances cloud. Une version axée sur la productivité des développeurs.</p>
+                            <a href="https://www.sqli.com/fr-fr/insights-news/blog/java-24" class="text-decoration-none text-danger" target="_blank">
+                                <i class="bi bi-box-arrow-up-right me-1"></i>Voir l’article
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Article 3 -->
+            <div class="accordion-item bg-dark text-white border-secondary rounded-3 mb-3">
+                <h2 class="accordion-header" id="heading3">
+                    <button class="accordion-button collapsed bg-secondary bg-opacity-25" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+                        09/2024 : Java 23 – Aperçu des fonctionnalités en profondeur
+                    </button>
+                </h2>
+                <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#veilleAccordion">
+                    <div class="accordion-body d-flex flex-column flex-md-row gap-4 align-items-center">
+                        <img src="./assets/img/java.png" class="rounded-3" style="max-width: 250px;" alt="Java 23 détail">
+                        <div>
+                            <p>Retour détaillé sur Java 23 : matching de types primitifs, JavaDoc en Markdown, API Vector. Fonctionnalités innovantes encore en preview.</p>
+                            <a href="https://www.loicmathieu.fr/wordpress/informatique/java-23-quoi-de-neuf/" class="text-decoration-none text-danger" target="_blank">
+                                <i class="bi bi-box-arrow-up-right me-1"></i>Voir l’article
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Article 4 -->
+            <div class="accordion-item bg-dark text-white border-secondary rounded-3 mb-3">
+                <h2 class="accordion-header" id="heading4">
+                    <button class="accordion-button collapsed bg-secondary bg-opacity-25" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+                        03/2025 : Java 24 – Plus de 20 nouvelles fonctionnalités orientées IA
+                    </button>
+                </h2>
+                <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#veilleAccordion">
+                    <div class="accordion-body d-flex flex-column flex-md-row gap-4 align-items-center">
+                        <img src="./assets/img/java.png" class="rounded-3" style="max-width: 250px;" alt="Java 24 IA">
+                        <div>
+                            <p>Oracle sort Java 24 avec intégration d’outils pour l’intelligence artificielle, cryptographie post-quantique et performances améliorées. Une version tournée vers l’avenir.</p>
+                            <a href="https://www.oracle.com/news/announcement/oracle-releases-java-24-2025-03-18/" class="text-decoration-none text-danger" target="_blank">
+                                <i class="bi bi-box-arrow-up-right me-1"></i>Voir l’article
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Article 5 -->
+            <div class="accordion-item bg-dark text-white border-secondary rounded-3 mb-3">
+                <h2 class="accordion-header" id="heading5">
+                    <button class="accordion-button collapsed bg-secondary bg-opacity-25" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
+                        04/2025 : Java 25 – Fonctionnalités attendues et suppression du 32 bits
+                    </button>
+                </h2>
+                <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#veilleAccordion">
+                    <div class="accordion-body d-flex flex-column flex-md-row gap-4 align-items-center">
+                        <img src="./assets/img/java.png" class="rounded-3" style="max-width: 250px;" alt="Java 25">
+                        <div>
+                            <p>Le JDK 25 prévoit l’arrêt du support pour le 32-bit, l’intégration de fonctionnalités preview du JDK 24, et marque la prochaine version LTS. Java entre dans une nouvelle ère.</p>
+                            <a href="https://www.infoworld.com/article/3846172/jdk-25-the-new-features-in-java-25.html" class="text-decoration-none text-danger" target="_blank">
+                                <i class="bi bi-box-arrow-up-right me-1"></i>Voir l’article
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
 </div>
 
 <style>
-    h1 {
-        color: white;
-        font-weight: bold;
-        margin-top: 50px;
-        text-align: center;
-    }
-
-    h3 {
-        color: #FF842D;
-        font-weight: bold;
-        margin-top: 50px;
-        margin-bottom: 20px;
-    }
-
-    h4 {
-        color: #FF5A5A;
-        font-weight: bold;
-    }
-
     p {
         color: white;
-        font-size: 16px;
-        line-height: 1.6;
     }
 
-    .description {
-        font-style: italic;
-        color: #888;
+    .accordion-item {
+        margin-bottom: 10px;
+        /* espace entre les cartes */
+        border-radius: 10px;
+        overflow: hidden;
+        /* pour que le collapse respecte le border-radius */
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        /* bord discret */
     }
 
-    .step-card {
-        background-color: #191919;
-        padding: 20px;
-        margin-bottom: 20px;
-        border-radius: 8px;
-        color: white;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    .accordion-button {
+        border-radius: 0;
+        /* par défaut */
+        background-color: rgba(255, 255, 255, 0.05);
+        color: #fff;
     }
 
-    .step-card h4 {
-        color: #FF842D;
-        text-align: center;
-        font-size: 20px;
-        margin-bottom: 15px;
+    .accordion-button:not(.collapsed) {
+        background-color: rgba(255, 90, 90, 0.1);
+        color: #ff5a5a;
     }
 
-    .row {
-        margin-top: 30px;
-    }
-
-    .col-4 {
-        margin-bottom: 20px;
+    .accordion-body {
+        background-color: rgba(255, 255, 255, 0.02);
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 1.25rem;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
     }
 </style>

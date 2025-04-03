@@ -1,17 +1,23 @@
 <div class="container competences my-5 text-white">
     <!-- À propos de moi -->
-    <h4 class="mb-3">– À PROPOS DE MOI</h4>
+    <h4 class="mb-3">À PROPOS DE MOI <br>____</h4>
     <p>
         Je m’appelle Trystan Le Marec, âgé de 19 ans et actuellement étudiant à Tours, en deuxième année de BTS SIO spécialité SLAM.
         J’ai toujours été attiré par l’informatique et les nouvelles technologies. C’est tout naturellement que je me suis tourné vers ce secteur d’études.
     </p>
-    <a href="chemin/vers/ton-cv.pdf" class="btn-cv" target="_blank">
-        Télécharger mon CV
-    </a>
+    <div class="d-flex gap-3 mb-4 flex-wrap">
+        <a href="./assets/documents/cv.pdf" class="btn-cv" target="_blank">
+            Télécharger mon CV
+        </a>
+
+        <button onclick="openModal('cv')" class="btn btn-outline-danger d-flex align-items-center gap-2">
+            <i class="bi bi-eye"></i>
+        </button>
+    </div>
 
 
     <!-- Expériences professionnelles -->
-    <h4 class="mt-5 mb-3">– EXPÉRIENCES PROFESSIONNELLES</h4>
+    <h4 class="mt-5 mb-3">EXPÉRIENCES PROFESSIONNELLES<br>____</h4>
     <p>
         J’ai eu l’opportunité d’effectuer deux stages en milieu professionnel, dans différentes entreprises, disposant d’un service informatique.
         Les études que j’ai entreprises répondent à une passion et à un réel intérêt pour l’innovation informatique et technologique.
@@ -43,7 +49,7 @@
     </div>
 
     <div class="container my-5 text-white">
-        <h4 class="mb-4">– COMPÉTENCES</h4>
+        <h4 class="mb-4">COMPÉTENCES<br>____</h4>
         <div class="row g-4">
 
             <!-- Carte 1 : Développement Web -->
@@ -179,8 +185,53 @@
 
 
 </div>
-
+<div id="cv" class="modal">
+    <span class="close" onclick="closeModal('cv')">&times;</span>
+    <img class="modal-content" src="./assets/img/cv.png" alt="Certificat Anssi">
+</div>
 <style>
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 999;
+        padding-top: 60px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(4px);
+    }
+
+    .modal-content {
+        display: block;
+        margin: auto;
+        width: auto;
+        height: auto;
+        max-width: 90vw;
+        max-height: 90vh;
+        object-fit: contain;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    }
+
+
+    .close {
+        position: absolute;
+        top: 20px;
+        right: 35px;
+        color: #fff;
+        font-size: 40px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .close:hover {
+        color: #ff6a00;
+    }
+
     .comptxt,
     .competences i,
     h3,
@@ -242,3 +293,12 @@
         transform: rotateY(180deg);
     }
 </style>
+<script>
+    function openModal(id) {
+        document.getElementById(id).style.display = "block";
+    }
+
+    function closeModal(id) {
+        document.getElementById(id).style.display = "none";
+    }
+</script>

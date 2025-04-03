@@ -1,7 +1,7 @@
 <div class="container mt-4">
     <div class="row">
-        <h1 class="text-center mb-5 text-gradient">Situations professionnel</h1>
-        <h2 class="mb-5 text-gradient">Première année</h2>
+        <h1 class="text-center mb-5 text-gradient">Situations professionnelles</h1>
+        <h2 class="mb-5 text-gradient text-center">Première année</h2>
         <div class="col-3">
             <div class="card d-flex align-items-center justify-content-center" style="width: 18rem; height: 10rem;">
                 <img src="./assets/img/logo_biodice.png" class="card-img-top" alt="logo biodicé">
@@ -23,7 +23,7 @@
     </div>
     <hr class="border border-1 opacity-100">
     <div class="row">
-        <h2 class="mb-5 text-gradient">Deuxième année</h2>
+        <h2 class="mb-5 text-gradient text-center">Deuxième année</h2>
         <div class="col-3">
             <div class="card d-flex align-items-center justify-content-center" style="width: 18rem; height: 10rem;">
                 <img src="./assets/img/ccdv.png" class="card-img-top" alt="logo ccdv">

@@ -1,6 +1,5 @@
 <div class="container mt-5">
     <h1 class="text-center text-gradient mb-4">Certifications</h1>
-    <h3>Mon parcours<br> _____</h3>
     <div class="timeline">
         <div class="timeline-item left">
             <div class="timeline-content">
@@ -13,8 +12,25 @@
 
         <div class=" timeline-item right">
             <div class="timeline-content">
+                <h3>Certification Java</h3>
+                <p>Les bases du langage de programmation Java<br>_______<br>Octobre - 2023</p>
+                <button class="btn-certificate" onclick="openModal('certif-java')">Voir le certificat</button>
+            </div>
+        </div>
+
+        <div class="timeline-item left">
+            <div class="timeline-content">
+                <h3>Certification Python</h3>
+                <p> Les bases du langage de programmation Python : sa syntaxe, sa logique de programmation…<br>_______<br>Novembre - 2023</p>
+                <button class="btn-certificate" onclick="openModal('certif-python')">Voir le certificat</button>
+            </div>
+        </div>
+
+
+        <div class=" timeline-item right">
+            <div class="timeline-content">
                 <h3>Certification HTML/CSS</h3>
-                <p>Création d'un site web avec HTML / CSS <br>_______<br>Decembre - 2023</p>
+                <p>Création d'un site web avec HTML / CSS <br>_______<br>Janvier - 2024</p>
                 <button class="btn-certificate" onclick="openModal('certif-htmlcss')">Voir le certificat</button>
             </div>
         </div>
@@ -22,10 +38,12 @@
         <div class="timeline-item left">
             <div class="timeline-content">
                 <h3>Certification Javascript</h3>
-                <p> Les bases du langage de programmation JavaScript : sa syntaxe, sa logique de programmation…<br>_______<br>Février - 2024</p>
+                <p> Les bases du langage de programmation JavaScript : sa syntaxe, sa logique de programmation…<br>_______<br>Mars - 2024</p>
                 <button class="btn-certificate" onclick="openModal('certif-javascript')">Voir le certificat</button>
             </div>
         </div>
+
+
 
     </div>
 
@@ -37,13 +55,20 @@
 </div>
 <div id="certif-htmlcss" class="modal">
     <span class="close" onclick="closeModal('certif-htmlcss')">&times;</span>
-    <img class="modal-content" src="./assets/img/certifications/certif_html_css.png" alt="Certificat Anssi">
+    <img class="modal-content" src="./assets/img/certifications/certif_html_css.png" alt="Certificat HTML CSS">
 </div>
 <div id="certif-javascript" class="modal">
     <span class="close" onclick="closeModal('certif-javascript')">&times;</span>
-    <img class="modal-content" src="./assets/img/certifications/certif_javascript.png" alt="Certificat Anssi">
+    <img class="modal-content" src="./assets/img/certifications/certif_javascript.png" alt="Certificat Javascript">
 </div>
-
+<div id="certif-java" class="modal">
+    <span class="close" onclick="closeModal('certif-java')">&times;</span>
+    <img class="modal-content" src="./assets/img/certifications/certif_java.png" alt="Certificat Java">
+</div>
+<div id="certif-python" class="modal">
+    <span class="close" onclick="closeModal('certif-python')">&times;</span>
+    <img class="modal-content" src="./assets/img/certifications/certif_python.png" alt="Certificat Python">
+</div>
 <style>
     .modal {
         display: none;
