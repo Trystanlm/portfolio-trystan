@@ -63,7 +63,7 @@
             <!-- Article 1 -->
             <div class="accordion-item bg-dark text-white border-secondary rounded-3 mb-3">
                 <h2 class="accordion-header" id="heading1">
-                    <button class="accordion-button collapsed bg-secondary bg-opacity-25 text-danger fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                    <button class="accordion-button collapsed bg-secondary bg-opacity-25" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
                         09/2023 : Sortie de Java 23 – Nouvelles fonctionnalités clés
                     </button>
                 </h2>
