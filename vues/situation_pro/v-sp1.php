@@ -34,7 +34,7 @@
 
                 <div id="m1" class="modal">
                     <span class="close" onclick="closeModal('m1')">&times;</span>
-                    <iframe class="pdf-frame" src="./assets/documents/sp1_m1_cms.pdf" frameborder="0"></iframe>
+                    <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m1_cms.pdf" frameborder="0"></iframe>
                 </div>
 
 
@@ -58,7 +58,7 @@
 
                 <div id="m2" class="modal">
                     <span class="close" onclick="closeModal('m2')">&times;</span>
-                    <iframe class="pdf-frame" src="./assets/documents/sp1_m1_cms.pdf" frameborder="0"></iframe>
+                    <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m2_wp_install.pdf" frameborder="0"></iframe>
                 </div>
 
             </div>
@@ -78,7 +78,7 @@
                     </button>
                     <div id="m3" class="modal">
                         <span class="close" onclick="closeModal('m3')">&times;</span>
-                        <iframe class="pdf-frame" src="./assets/documents/sp1_m1_cms.pdf" frameborder="0"></iframe>
+                        <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m1_cms.pdf" frameborder="0"></iframe>
                     </div>
                 </div>
 
@@ -99,7 +99,7 @@
                     </button>
                     <div id="m4" class="modal">
                         <span class="close" onclick="closeModal('m4')">&times;</span>
-                        <iframe class="pdf-frame" src="./assets/documents/sp1_m4_wp.pdf" frameborder="0"></iframe>
+                        <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m4_wp.pdf" frameborder="0"></iframe>
                     </div>
                 </div>
             </div>
@@ -119,7 +119,7 @@
                     </button>
                     <div id="m5" class="modal">
                         <span class="close" onclick="closeModal('m5')">&times;</span>
-                        <iframe class="pdf-frame" src="./assets/documents/sp1_m4_wp.pdf" frameborder="0"></iframe>
+                        <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m4_wp.pdf" frameborder="0"></iframe>
                     </div>
                 </div>
             </div>
@@ -139,7 +139,7 @@
                     </button>
                     <div id="m6" class="modal">
                         <span class="close" onclick="closeModal('m6')">&times;</span>
-                        <iframe class="pdf-frame" src="./assets/documents/sp1_m4_wp.pdf" frameborder="0"></iframe>
+                        <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m4_wp.pdf" frameborder="0"></iframe>
                     </div>
                 </div>
             </div>
@@ -160,7 +160,7 @@
                     </button>
                     <div id="m7" class="modal">
                         <span class="close" onclick="closeModal('m7')">&times;</span>
-                        <iframe class="pdf-frame" src="./assets/documents/sp1_m4_wp.pdf" frameborder="0"></iframe>
+                        <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m4_wp.pdf" frameborder="0"></iframe>
                     </div>
                 </div>
             </div>

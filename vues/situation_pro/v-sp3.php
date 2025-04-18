@@ -42,7 +42,7 @@
 
                 <div id="m1" class="modal">
                     <span class="close" onclick="closeModal('m1')">&times;</span>
-                    <iframe class="pdf-frame" src="./assets/documents/sp1_m1_cms.pdf" frameborder="0"></iframe>
+                    <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m1_cms.pdf" frameborder="0"></iframe>
                 </div>
 
 
@@ -66,7 +66,7 @@
 
                 <div id="m2" class="modal">
                     <span class="close" onclick="closeModal('m2')">&times;</span>
-                    <iframe class="pdf-frame" src="./assets/documents/sp1_m1_cms.pdf" frameborder="0"></iframe>
+                    <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m2_wp_install.pdf" frameborder="0"></iframe>
                 </div>
 
             </div>
