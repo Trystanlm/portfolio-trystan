@@ -20,12 +20,11 @@
         <h3 class="text-gradient mb-4">Missions réalisées</h3>
         <div class="accordion-group">
             <button class="accordion">
-                Mission 1 : Étude comparative de Content Management System (CMS)
+                Mission 1 : Découverte du framwork Bootstrap
             </button>
             <div class="panel">
                 <p>
-                    L'entreprise souhaitant proposer des sites vitrines à ses clients, une étude comparative des CMS existants a été réalisée afin de déterminer la solution la plus adaptée à leurs besoins.
-                </p>
+                    Pour se familiariser avec le framework, un projet d’initiation a été mené. Celui-ci consistait à créer une page web intégrant une barre de navigation ainsi qu’un formulaire. </p>
                 <div class="mb-3">
                     <button class="btn-doc" onclick="openModal('m1')">
                         📄 Voir la documentation
@@ -44,12 +43,11 @@
 
         <div class="accordion-group">
             <button class="accordion">
-                Mission 2 : Installation de Wordpress
+                Mission 2 : Implémentation de la base de données bd_barec
             </button>
             <div class="panel">
                 <p>
-                    Suite à l'étude préalable, le choix s'est porté sur WordPress. J'ai procédé à son installation et rédigé une documentation technique détaillant chaque étape du processus.
-                </p>
+                    Une base de données a été conçue afin de poser les fondations du projet d’application. La documentation technique, le script de création des tables ainsi que les scripts d’insertion des données ont été réalisés. </p>
                 <div class="mb-3">
                     <button class="btn-doc" onclick="openModal('m2')">
                         📄 Voir la documentation
@@ -66,12 +64,11 @@
 
         <div class="accordion-group">
             <button class="accordion">
-                Mission 3 : Etude d'un site existant
+                Mission 3 : Initiation Modèles Vues Contrôleurs (MVC)
             </button>
             <div class="panel">
                 <p>
-                    Avant de démarrer la refonte, une analyse complète du site existant de BioDicé a été effectuée, synthétisée dans une fiche d’étude pour mieux cerner son fonctionnement et ses axes d’amélioration.
-                </p>
+                    Afin de s’adapter à cette nouvelle méthode de travail, un projet a été mené sous NetBeans pour en comprendre le fonctionnement et les bonnes pratiques associées. </p>
                 <div class="mb-3">
                     <button class="btn-doc" onclick="openModal('m3')">
                         📄 Voir la documentation
@@ -87,12 +84,11 @@
 
         <div class="accordion-group">
             <button class="accordion">
-                Mission 4 : Charte graphique et refonte
+                Mission 4 : Mise en place de l'architecture
             </button>
             <div class="panel">
                 <p>
-                    En utilisant WordPress, j’ai conçu une nouvelle version du site vitrine en définissant d’abord une charte graphique respectant l’identité de la coopérative BioDicé.
-                </p>
+                    En suivant le modèle MVC et en s'appuyant sur Bootstrap, une architecture claire a été mise en place : organisation optimisée des fichiers et dossiers, et intégration de fonctionnalités telles qu’un formulaire d’authentification entièrement fonctionnel. </p>
                 <div class="mb-3">
                     <button class="btn-doc" onclick="openModal('m4')">
                         📄 Voir la documentation
@@ -107,12 +103,11 @@
 
         <div class="accordion-group">
             <button class="accordion">
-                Mission 5 : Gestion des utilisateurs sur le site
+                Mission 5 : Rendu de l'application
             </button>
             <div class="panel">
                 <p>
-                    Afin de permettre au client de gérer et actualiser le site de manière autonome, un système de gestion des utilisateurs a été mis en place, accompagné d’une documentation claire.
-                </p>
+                    L’application demandée a été développée avec succès, en réponse aux attentes du client. Chaque sprint a été accompagné d’une fiche de recette détaillant les fonctionnalités livrées et validées. </p>
                 <div class="mb-3">
                     <button class="btn-doc" onclick="openModal('m5')">
                         📄 Voir la documentation
@@ -124,55 +119,13 @@
                 </div>
             </div>
         </div>
-
-        <div class="accordion-group">
-            <button class="accordion ">
-                Mission 6 : Livraison et présentation du site au client
-            </button>
-            <div class="panel">
-                <p>
-                    Une présentation du site finalisé a été préparée sous forme de diaporama. Une démonstration de l’interface WordPress a également été fournie pour faciliter sa prise en main par le client.
-                </p>
-                <div class="mb-3">
-                    <button class="btn-doc" onclick="openModal('m6')">
-                        📄 Voir la documentation
-                    </button>
-                    <div id="m6" class="modal">
-                        <span class="close" onclick="closeModal('m6')">&times;</span>
-                        <iframe class="pdf-frame" src="./assets/documents/sp1_m4_wp.pdf" frameborder="0"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="accordion-group">
-            <button class="accordion ">
-                Mission 7 : Déploiement
-            </button>
-            <div class="panel">
-                <p>
-                    Pour finaliser le projet, le site a été déployé sur le serveur local du lycée. Une documentation complète accompagnait cette phase pour assurer une installation fonctionnelle et pérenne.
-                </p>
-
-                <div class="mb-3">
-                    <button class="btn-doc" onclick="openModal('m7')">
-                        📄 Voir la documentation
-                    </button>
-                    <div id="m7" class="modal">
-                        <span class="close" onclick="closeModal('m7')">&times;</span>
-                        <iframe class="pdf-frame" src="./assets/documents/sp1_m4_wp.pdf" frameborder="0"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Ajoute autant de missions que nécessaire -->
     </div>
     <h3 class="text-gradient mb-4 mt-4">Compétences acquises</h3>
     <div class="competence-table-container">
         <table class="competence-table">
             <thead>
                 <tr>
-                    <th colspan="2" class="header-top">START@DEV TOURS - Semestre 1 - BioDicé</th>
+                    <th class="header-top">Barec - Semestre 1 - Gestion MSL</th>
                     <th>Gérer le patrimoine informatique</th>
                     <th>Répondre aux incidents et demandes d’évolution</th>
                     <th>Développer la présence en ligne</th>
@@ -184,40 +137,25 @@
             <tbody>
                 <tr>
                     <td class="desc">
-                        <strong>START@DEVTOURS</strong> – Étude comparative d’un CMS – Installation du CMS Wordpress
+                        <strong><span class="blue"> BAREC </span></strong> – Mise en place de la base de données bd_barec
                     </td>
-                    <td>09/2023</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td class="x">X</td>
                     <td class="x">X</td>
                     <td></td>
-                    <td class="x">X</td>
-                </tr>
-                <tr>
-                    <td class="desc">
-                        <strong>START@DEVTOURS</strong> – Étude de l'existant du site <span class="green">BioDicé</span>
-                        (design, lisibilité, ergonomie, accessibilité, SEO…)
-                    </td>
-                    <td>10/2023</td>
-                    <td></td>
-                    <td></td>
-                    <td class="x">X</td>
                     <td class="x">X</td>
                     <td></td>
                     <td></td>
                 </tr>
                 <tr>
                     <td class="desc">
-                        <strong>START@DEVTOURS</strong> – Refonte et évolutions du site vitrine <span class="green">BioDicé</span> à l’aide du CMS Wordpress
+                        <strong><span class="blue"> BAREC </span></strong> – Développement des fonctionnalités << Gestion MSL>>
                     </td>
-                    <td>11/2023 à 12/2023</td>
-                    <td class="x">X</td>
-                    <td class="x">X</td>
-                    <td class="x">X</td>
-                    <td class="x">X</td>
-                    <td class="x">X</td>
                     <td></td>
+                    <td class="x">X</td>
+                    <td class="x">X</td>
+                    <td class="x">X</td>
+                    <td class="x">X</td>
+                    <td class="x">X</td>
                 </tr>
             </tbody>
         </table>
@@ -346,7 +284,7 @@
     }
 
     .competence-table thead th {
-        background-color: rgb(123, 220, 181);
+        background-color: rgb(0, 191, 238);
         color: #111;
         font-weight: bold;
     }
@@ -368,8 +306,8 @@
         color: #fff;
     }
 
-    .competence-table .green {
-        color: #9eff9e;
+    .competence-table .blue {
+        color: rgb(1, 89, 183);
     }
 </style>
 

@@ -9,7 +9,7 @@
             </p>
         </div>
         <div class="col-6">
-            <img src="./assets/img/btssio.png" class="card-img-top" alt="logo btssio">
+            <img src="./assets/img/btssio.png" class="rounded card-img-top" alt="logo btssio">
         </div>
     </div>
     <h3> Les Options <br> _____ </h3>
