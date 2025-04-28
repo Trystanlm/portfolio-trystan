@@ -40,7 +40,7 @@
                     </button>
                 </div>
 
-                <div id="m1" class="modal">
+                <div id="m1" class="custom-modal">
                     <span class="close" onclick="closeModal('m1')">&times;</span>
                     <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m1_cms.pdf" frameborder="0"></iframe>
                 </div>
@@ -126,7 +126,7 @@
         border-color: #888;
     }
 
-    .modal {
+    .custom-modal {
         display: none;
         position: fixed;
         z-index: 999;

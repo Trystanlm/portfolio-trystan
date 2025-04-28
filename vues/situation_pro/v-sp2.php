@@ -16,6 +16,21 @@
         l'agence Start@Dev_Tours accompagne ses clients et leur propose de nouvelles idées alliant
         respect de l’environnement et dernières technologies. </p>
 
+    <h3 class="text-gradient">Environnement de développement</h3>
+    <div class="row mt-2 mb-2">
+        <div class="techno">
+            <div class="col-1">
+                <img src="./assets/img/netbeans.png" alt="Netbeans logo" class="img-fluid tech-logo rounded" data-bs-toggle="modal" data-bs-target="#netbeansModal">
+            </div>
+            <div class="col-1">
+                <img src="./assets/img/mysql.png" alt="MySQL logo" class="img-fluid tech-logo rounded" data-bs-toggle="modal" data-bs-target="#mysqlModal">
+            </div>
+            <div class="col-1">
+                <img src="./assets/img/trello.png" alt="Trello logo" class="img-fluid tech-logo rounded" data-bs-toggle="modal" data-bs-target="#trelloModal">
+            </div>
+        </div>
+    </div>
+
     <div class="accordion-container">
         <h3 class="text-gradient mb-4">Missions réalisées</h3>
         <div class="accordion-group">
@@ -31,7 +46,7 @@
                     </button>
                 </div>
 
-                <div id="m1" class="modal">
+                <div id="m1" class="custom-modal">
                     <span class="close" onclick="closeModal('m1')">&times;</span>
                     <iframe class="pdf-frame" src="./assets/documents/sp1_m1_cms.pdf" frameborder="0"></iframe>
                 </div>
@@ -54,7 +69,7 @@
                     </button>
                 </div>
 
-                <div id="m2" class="modal">
+                <div id="m2" class="custom-modal">
                     <span class="close" onclick="closeModal('m2')">&times;</span>
                     <iframe class="pdf-frame" src="./assets/documents/sp1_m1_cms.pdf" frameborder="0"></iframe>
                 </div>
@@ -73,7 +88,7 @@
                     <button class="btn-doc" onclick="openModal('m3')">
                         📄 Voir la documentation
                     </button>
-                    <div id="m3" class="modal">
+                    <div id="m3" class="custom-modal">
                         <span class="close" onclick="closeModal('m3')">&times;</span>
                         <iframe class="pdf-frame" src="./assets/documents/sp1_m1_cms.pdf" frameborder="0"></iframe>
                     </div>
@@ -93,7 +108,7 @@
                     <button class="btn-doc" onclick="openModal('m4')">
                         📄 Voir la documentation
                     </button>
-                    <div id="m4" class="modal">
+                    <div id="m4" class="custom-modal">
                         <span class="close" onclick="closeModal('m4')">&times;</span>
                         <iframe class="pdf-frame" src="./assets/documents/sp1_m4_wp.pdf" frameborder="0"></iframe>
                     </div>
@@ -112,7 +127,7 @@
                     <button class="btn-doc" onclick="openModal('m5')">
                         📄 Voir la documentation
                     </button>
-                    <div id="m5" class="modal">
+                    <div id="m5" class="custom-modal">
                         <span class="close" onclick="closeModal('m5')">&times;</span>
                         <iframe class="pdf-frame" src="./assets/documents/sp1_m4_wp.pdf" frameborder="0"></iframe>
                     </div>
@@ -162,6 +177,95 @@
     </div>
 
 </div>
+<!-- Modale NetBeans -->
+<div class="modal fade" id="netbeansModal" tabindex="-1" aria-labelledby="netbeansModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="netbeansModalLabel">NetBeans : Présentation, Avantages et Inconvénients</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>NetBeans est un environnement de développement intégré (IDE) principalement utilisé pour le développement Java, mais il prend également en charge d'autres langages.</p>
+                <div class="list-container">
+                    <h4 class="green">Avantages</h4>
+                    <ul class="pros-list">
+                        <li>Interface claire et bien organisée.</li>
+                        <li>Support natif pour Maven, Git, et Java EE.</li>
+                        <li>Gratuit et open source.</li>
+                    </ul>
+                </div>
+                <div class="list-container">
+                    <h4>Inconvénients</h4>
+                    <ul class="cons-list">
+                        <li>Peut être lourd et lent sur des projets volumineux.</li>
+                        <li>Moins d'extensions disponibles comparé à Eclipse ou IntelliJ.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modale MySQL -->
+<div class="modal fade" id="mysqlModal" tabindex="-1" aria-labelledby="mysqlModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="mysqlModalLabel">MySQL : Présentation, Avantages et Inconvénients</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>MySQL est un système de gestion de base de données relationnelle (SGBDR) très utilisé, notamment pour les applications web.</p>
+                <div class="list-container">
+                    <h4 class="green">Avantages</h4>
+                    <ul class="pros-list">
+                        <li>Gratuit, open source et largement documenté.</li>
+                        <li>Haute performance pour les lectures intensives.</li>
+                        <li>Compatible avec de nombreuses plateformes et langages.</li>
+                    </ul>
+                </div>
+                <div class="list-container">
+                    <h4>Inconvénients</h4>
+                    <ul class="cons-list">
+                        <li>Fonctionnalités avancées limitées par rapport à PostgreSQL.</li>
+                        <li>Gestion des transactions et performances parfois moins bonnes sur les bases très complexes.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modale Trello -->
+<div class="modal fade" id="trelloModal" tabindex="-1" aria-labelledby="trelloModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="trelloModalLabel">Trello : Présentation, Avantages et Inconvénients</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Trello est un outil de gestion de projets basé sur le web qui utilise une approche visuelle de type Kanban pour organiser les tâches.</p>
+                <div class="list-container">
+                    <h4 class="green">Avantages</h4>
+                    <ul class="pros-list">
+                        <li>Interface intuitive et simple à prendre en main.</li>
+                        <li>Collaboration en temps réel facilitée.</li>
+                        <li>Intégrations possibles avec de nombreux autres outils (Slack, Google Drive, etc.).</li>
+                    </ul>
+                </div>
+                <div class="list-container">
+                    <h4>Inconvénients</h4>
+                    <ul class="cons-list">
+                        <li>Peut devenir désorganisé sur les projets très complexes.</li>
+                        <li>Fonctionnalités avancées limitées sans abonnement payant.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <style>
     .btn-doc {
@@ -181,7 +285,7 @@
         border-color: #888;
     }
 
-    .modal {
+    .custom-modal {
         display: none;
         position: fixed;
         z-index: 999;

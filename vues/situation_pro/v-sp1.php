@@ -15,6 +15,16 @@
         web sur mesure qui répondent au besoin de chaque projet. Avec plus de 16 années d’expérience,
         l'agence Start@Dev_Tours accompagne ses clients et leur propose de nouvelles idées alliant
         respect de l’environnement et dernières technologies. </p>
+    <h3 class="text-gradient">Environnement de développement</h3>
+    <div class="row mt-2 mb-2">
+        <div class="techno">
+            <div class="col-2">
+                <img src="./assets/img/wp.png" alt="Wordpress logo" class="img-fluid tech-logo rounded" data-bs-toggle="modal" data-bs-target="#wpModal">
+            </div>
+        </div>
+    </div>
+
+
 
     <div class="accordion-container">
         <h3 class="text-gradient mb-4">Missions réalisées</h3>
@@ -32,7 +42,7 @@
                     </button>
                 </div>
 
-                <div id="m1" class="modal">
+                <div id="m1" class="custom-modal">
                     <span class="close" onclick="closeModal('m1')">&times;</span>
                     <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m1_cms.pdf" frameborder="0"></iframe>
                 </div>
@@ -56,7 +66,7 @@
                     </button>
                 </div>
 
-                <div id="m2" class="modal">
+                <div id="m2" class="custom-modal">
                     <span class="close" onclick="closeModal('m2')">&times;</span>
                     <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m2_wp_install.pdf" frameborder="0"></iframe>
                 </div>
@@ -76,7 +86,7 @@
                     <button class="btn-doc" onclick="openModal('m3')">
                         📄 Voir la documentation
                     </button>
-                    <div id="m3" class="modal">
+                    <div id="m3" class="custom-modal">
                         <span class="close" onclick="closeModal('m3')">&times;</span>
                         <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m1_cms.pdf" frameborder="0"></iframe>
                     </div>
@@ -97,7 +107,7 @@
                     <button class="btn-doc" onclick="openModal('m4')">
                         📄 Voir la documentation
                     </button>
-                    <div id="m4" class="modal">
+                    <div id="m4" class="custom-modal">
                         <span class="close" onclick="closeModal('m4')">&times;</span>
                         <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m4_wp.pdf" frameborder="0"></iframe>
                     </div>
@@ -117,7 +127,7 @@
                     <button class="btn-doc" onclick="openModal('m5')">
                         📄 Voir la documentation
                     </button>
-                    <div id="m5" class="modal">
+                    <div id="m5" class="custom-modal">
                         <span class="close" onclick="closeModal('m5')">&times;</span>
                         <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m4_wp.pdf" frameborder="0"></iframe>
                     </div>
@@ -137,7 +147,7 @@
                     <button class="btn-doc" onclick="openModal('m6')">
                         📄 Voir la documentation
                     </button>
-                    <div id="m6" class="modal">
+                    <div id="m6" class="custom-modal">
                         <span class="close" onclick="closeModal('m6')">&times;</span>
                         <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m4_wp.pdf" frameborder="0"></iframe>
                     </div>
@@ -158,7 +168,7 @@
                     <button class="btn-doc" onclick="openModal('m7')">
                         📄 Voir la documentation
                     </button>
-                    <div id="m7" class="modal">
+                    <div id="m7" class="custom-modal">
                         <span class="close" onclick="closeModal('m7')">&times;</span>
                         <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m4_wp.pdf" frameborder="0"></iframe>
                     </div>
@@ -224,7 +234,35 @@
     </div>
 
 </div>
-
+<!-- Modale WordPress -->
+<div class="modal fade" id="wpModal" tabindex="-1" aria-labelledby="wpModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="wpModalLabel">WordPress : Présentation, Avantages et Inconvénients</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>WordPress est un système de gestion de contenu (CMS) populaire utilisé pour créer des sites web et des blogs.</p>
+                <div class="list-container">
+                    <h4 class="green">Avantages</h4>
+                    <ul class="pros-list">
+                        <li>Facile à utiliser, même pour les non-développeurs.</li>
+                        <li>Écosystème riche de plugins et de thèmes.</li>
+                        <li>Support d'une large communauté.</li>
+                    </ul>
+                </div>
+                <div class="list-container">
+                    <h4>Inconvénients</h4>
+                    <ul class="cons-list">
+                        <li>Peut être lourd avec trop de plugins.</li>
+                        <li>Exposé à des vulnérabilités de sécurité.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <style>
     .btn-doc {
         background-color: transparent;
@@ -243,7 +281,7 @@
         border-color: #888;
     }
 
-    .modal {
+    .custom-modal {
         display: none;
         position: fixed;
         z-index: 999;
