@@ -124,7 +124,7 @@
                     </ul>
                 </div>
                 <div class="list-container">
-                    <h4>Inconvénients</h4>
+                    <h4 class="red">Inconvénients</h4>
                     <ul class="cons-list">
                         <li>Ne supporte pas l'exécution de JavaScript.</li>
                         <li>Moins puissant que Selenium pour des pages dynamiques.</li>
@@ -158,7 +158,7 @@
                     </ul>
                 </div>
                 <div class="list-container">
-                    <h4>Inconvénients</h4>
+                    <h4 class="red">Inconvénients</h4>
                     <ul class="cons-list">
                         <li>Consommation mémoire et CPU plus élevée que certains langages plus légers.</li>
                         <li>Syntaxe parfois verbeuse comparée à des langages comme Python.</li>
@@ -191,7 +191,7 @@
                     </ul>
                 </div>
                 <div class="list-container">
-                    <h4>Inconvénients</h4>
+                    <h4 class="red">Inconvénients</h4>
                     <ul class="cons-list">
                         <li>Moins rapide que certains autres langages.</li>
                         <li>Pas idéal pour les applications mobiles.</li>
@@ -223,7 +223,7 @@
                     </ul>
                 </div>
                 <div class="list-container">
-                    <h4>Inconvénients</h4>
+                    <h4 class="red">Inconvénients</h4>
                     <ul class="cons-list">
                         <li>Interface complexe pour les débutants.</li>
                         <li>Peut nécessiter des ressources serveur importantes pour l'auto-hébergement.</li>
@@ -254,7 +254,7 @@
                     </ul>
                 </div>
                 <div class="list-container">
-                    <h4>Inconvénients</h4>
+                    <h4 class="red">Inconvénients</h4>
                     <ul class="cons-list">
                         <li>Consommation élevée de ressources.</li>
                         <li>Configuration et maintenance complexes.</li>
@@ -284,7 +284,7 @@
                     </ul>
                 </div>
                 <div class="list-container">
-                    <h4>Inconvénients</h4>
+                    <h4 class="red">Inconvénients</h4>
                     <ul class="cons-list">
                         <li>Configuration et gestion complexes.</li>
                         <li>Consommation élevée en mémoire et CPU.</li>
@@ -314,7 +314,7 @@
                     </ul>
                 </div>
                 <div class="list-container">
-                    <h4>Inconvénients</h4>
+                    <h4 class="red">Inconvénients</h4>
                     <ul class="cons-list">
                         <li>Courbe d'apprentissage élevée.</li>
                         <li>Coût élevé pour les grandes équipes.</li>
@@ -344,7 +344,7 @@
                     </ul>
                 </div>
                 <div class="list-container">
-                    <h4>Inconvénients</h4>
+                    <h4 class="red">Inconvénients</h4>
                     <ul class="cons-list">
                         <li>Configuration XML parfois lourde.</li>
                         <li>Consommation élevée en ressources.</li>
@@ -375,7 +375,7 @@
                     </ul>
                 </div>
                 <div class="list-container">
-                    <h4>Inconvénients</h4>
+                    <h4 class="red">Inconvénients</h4>
                     <ul class="cons-list">
                         <li>Peut devenir complexe avec un grand volume de documents.</li>
                         <li>Coût élevé pour les grandes entreprises.</li>

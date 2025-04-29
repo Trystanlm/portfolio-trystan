@@ -124,7 +124,7 @@
                 </div>
 
                 <div class="list-container">
-                    <h4>Inconvénients</h4>
+                    <h4 class="red">Inconvénients</h4>
                     <ul class="cons-list">
                         <li>Écosystème moins mature comparé à React ou Angular.</li>
                         <li>Moins adopté dans les grandes entreprises.</li>
@@ -157,7 +157,7 @@
                     </ul>
                 </div>
                 <div class="list-container">
-                    <h4>Inconvénients</h4>
+                    <h4 class="red">Inconvénients</h4>
                     <ul class="cons-list">
                         <li>Documentation parfois complexe pour certaines fonctionnalités avancées.</li>
                         <li>Limitations de personnalisation pour certains graphiques complexes.</li>
@@ -187,7 +187,7 @@
                     </ul>
                 </div>
                 <div class="list-container">
-                    <h4>Inconvénients</h4>
+                    <h4 class="red">Inconvénients</h4>
                     <ul class="cons-list">
                         <li>Fonctionnalités limitées pour des visualisations avancées.</li>
                         <li>Moins performant avec des volumes de données importants.</li>
@@ -217,7 +217,7 @@
                     </ul>
                 </div>
                 <div class="list-container">
-                    <h4>Inconvénients</h4>
+                    <h4 class="red">Inconvénients</h4>
                     <ul class="cons-list">
                         <li>Fonctionnalités limitées pour des visualisations avancées.</li>
                         <li>Personnalisation complexe.</li>
@@ -247,7 +247,7 @@
                     </ul>
                 </div>
                 <div class="list-container">
-                    <h4>Inconvénients</h4>
+                    <h4 class="red">Inconvénients</h4>
                     <ul class="cons-list">
                         <li>Peut être lourd avec trop de plugins.</li>
                         <li>Exposé à des vulnérabilités de sécurité.</li>
@@ -277,7 +277,7 @@
                     </ul>
                 </div>
                 <div class="list-container">
-                    <h4>Inconvénients</h4>
+                    <h4 class="red">Inconvénients</h4>
                     <ul class="cons-list">
                         <li>Moins rapide que certains autres langages.</li>
                         <li>Pas idéal pour les applications mobiles.</li>
@@ -308,7 +308,7 @@
                     </ul>
                 </div>
                 <div class="list-container">
-                    <h4>Inconvénients</h4>
+                    <h4 class="red">Inconvénients</h4>
                     <ul class="cons-list">
                         <li>Courbe d'apprentissage pour les débutants en AWS et Python.</li>
                         <li>Peut nécessiter des permissions détaillées pour certains services AWS.</li>
@@ -340,7 +340,7 @@
                     </ul>
                 </div>
                 <div class="list-container">
-                    <h4>Inconvénients</h4>
+                    <h4 class="red">Inconvénients</h4>
                     <ul class="cons-list">
                         <li>Coûts peuvent augmenter avec des volumes de données élevés.</li>
                         <li>Complexité de la gestion des permissions et de la sécurité des objets.</li>
@@ -372,7 +372,7 @@
                     </ul>
                 </div>
                 <div class="list-container">
-                    <h4>Inconvénients</h4>
+                    <h4 class="red">Inconvénients</h4>
                     <ul class="cons-list">
                         <li>Interface complexe pour les débutants.</li>
                         <li>Peut nécessiter des ressources serveur importantes pour l'auto-hébergement.</li>

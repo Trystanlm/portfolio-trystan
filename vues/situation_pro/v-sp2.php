@@ -16,26 +16,19 @@
         l'agence Start@Dev_Tours accompagne ses clients et leur propose de nouvelles idées alliant
         respect de l’environnement et dernières technologies. </p>
 
-    <h3 class="text-gradient">Environnement de développement</h3>
-    <div class="row mt-2 mb-2">
-        <div class="techno">
-            <div class="col-1">
-                <img src="./assets/img/netbeans.png" alt="Netbeans logo" class="img-fluid tech-logo rounded" data-bs-toggle="modal" data-bs-target="#netbeansModal">
-            </div>
-            <div class="col-1">
-                <img src="./assets/img/mysql.png" alt="MySQL logo" class="img-fluid tech-logo rounded" data-bs-toggle="modal" data-bs-target="#mysqlModal">
-            </div>
-            <div class="col-1">
-                <img src="./assets/img/trello.png" alt="Trello logo" class="img-fluid tech-logo rounded" data-bs-toggle="modal" data-bs-target="#trelloModal">
-            </div>
-        </div>
+    <h3 class="text-gradient">Environnement de développement & Gestion de projet</h3>
+    <div class="d-flex justify-content-start gap-3 flex-wrap">
+        <img src="./assets/img/netbeans.png" alt="Netbeans logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#netbeansModal">
+        <img src="./assets/img/mysql.png" alt="MySQL logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#mysqlModal">
+        <img src="./assets/img/trello.png" alt="Trello logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#trelloModal">
     </div>
+
 
     <div class="accordion-container">
         <h3 class="text-gradient mb-4">Missions réalisées</h3>
         <div class="accordion-group">
             <button class="accordion">
-                Mission 1 : Découverte du framwork Bootstrap
+                Mission 1 : Découverte du Framework Bootstrap
             </button>
             <div class="panel">
                 <p>
@@ -196,7 +189,7 @@
                     </ul>
                 </div>
                 <div class="list-container">
-                    <h4>Inconvénients</h4>
+                    <h4 class="red">Inconvénients</h4>
                     <ul class="cons-list">
                         <li>Peut être lourd et lent sur des projets volumineux.</li>
                         <li>Moins d'extensions disponibles comparé à Eclipse ou IntelliJ.</li>
@@ -226,7 +219,7 @@
                     </ul>
                 </div>
                 <div class="list-container">
-                    <h4>Inconvénients</h4>
+                    <h4 class="red">Inconvénients</h4>
                     <ul class="cons-list">
                         <li>Fonctionnalités avancées limitées par rapport à PostgreSQL.</li>
                         <li>Gestion des transactions et performances parfois moins bonnes sur les bases très complexes.</li>
@@ -256,7 +249,7 @@
                     </ul>
                 </div>
                 <div class="list-container">
-                    <h4>Inconvénients</h4>
+                    <h4 class="red">Inconvénients</h4>
                     <ul class="cons-list">
                         <li>Peut devenir désorganisé sur les projets très complexes.</li>
                         <li>Fonctionnalités avancées limitées sans abonnement payant.</li>
@@ -349,6 +342,8 @@
         font-size: 1.3em;
         transition: background-color 0.3s;
     }
+
+
 
     .accordion:hover {
         background-color: rgba(255, 255, 255, 0.05);

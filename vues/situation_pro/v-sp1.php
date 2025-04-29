@@ -253,7 +253,7 @@
                     </ul>
                 </div>
                 <div class="list-container">
-                    <h4>Inconvénients</h4>
+                    <h4 class="red">Inconvénients</h4>
                     <ul class="cons-list">
                         <li>Peut être lourd avec trop de plugins.</li>
                         <li>Exposé à des vulnérabilités de sécurité.</li>

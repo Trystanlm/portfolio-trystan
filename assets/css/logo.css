@@ -3,7 +3,8 @@
     transition: transform 0.3s ease-in-out;
     width: 100px;
     height: auto;
-    margin: 10px;
+    margin: 5px;
+
 }
 
 .techno {
@@ -65,4 +66,12 @@
 .tech-logo:hover {
     transform: scale(1.2);
     box-shadow: 10px 5px 5px gray;
+}
+
+.green {
+    color: green
+}
+
+.red {
+    color: red
 }

@@ -23,7 +23,13 @@
         - 89 et 80 obtiennent une médaille d’argent,<br>
         - 79 et 70 obtiennent une médaille de bronze.
     </p>
-
+    <h3 class="text-gradient">Environnement de développement & Gestion de projet</h3>
+    <div class="d-flex justify-content-start gap-3 flex-wrap">
+        <img src="./assets/img/netbeans.png" alt="Netbeans logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#netbeansModal">
+        <img src="./assets/img/mysql.png" alt="MySQL logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#mysqlModal">
+        <img src="./assets/img/codeigniter.png" alt="CodeIgniter logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#codeigniterModal">
+        <img src="./assets/img/bitbucket.png" alt="Trello logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#bitbucketModal">
+    </div>
     <div class="accordion-container">
         <h3 class="text-gradient mb-4">Missions réalisées</h3>
         <div class="accordion-group">
@@ -106,6 +112,128 @@
         </table>
     </div>
 
+</div>
+<!-- Modale NetBeans -->
+<div class="modal fade" id="netbeansModal" tabindex="-1" aria-labelledby="netbeansModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="netbeansModalLabel">NetBeans : Présentation, Avantages et Inconvénients</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>NetBeans est un environnement de développement intégré (IDE) principalement utilisé pour le développement Java, mais il prend également en charge d'autres langages.</p>
+                <div class="list-container">
+                    <h4 class="green">Avantages</h4>
+                    <ul class="pros-list">
+                        <li>Interface claire et bien organisée.</li>
+                        <li>Support natif pour Maven, Git, et Java EE.</li>
+                        <li>Gratuit et open source.</li>
+                    </ul>
+                </div>
+                <div class="list-container">
+                    <h4 class="red">Inconvénients</h4>
+                    <ul class="cons-list">
+                        <li>Peut être lourd et lent sur des projets volumineux.</li>
+                        <li>Moins d'extensions disponibles comparé à Eclipse ou IntelliJ.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modale MySQL -->
+<div class="modal fade" id="mysqlModal" tabindex="-1" aria-labelledby="mysqlModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="mysqlModalLabel">MySQL : Présentation, Avantages et Inconvénients</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>MySQL est un système de gestion de base de données relationnelle (SGBDR) très utilisé, notamment pour les applications web.</p>
+                <div class="list-container">
+                    <h4 class="green">Avantages</h4>
+                    <ul class="pros-list">
+                        <li>Gratuit, open source et largement documenté.</li>
+                        <li>Haute performance pour les lectures intensives.</li>
+                        <li>Compatible avec de nombreuses plateformes et langages.</li>
+                    </ul>
+                </div>
+                <div class="list-container">
+                    <h4 class="red">Inconvénients</h4>
+                    <ul class="cons-list">
+                        <li>Fonctionnalités avancées limitées par rapport à PostgreSQL.</li>
+                        <li>Gestion des transactions et performances parfois moins bonnes sur les bases très complexes.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modale CodeIgniter -->
+<div class="modal fade" id="codeigniterModal" tabindex="-1" aria-labelledby="codeigniterModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="codeigniterModalLabel">CodeIgniter : Présentation, Avantages et Inconvénients</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+            </div>
+            <div class="modal-body">
+                <p>CodeIgniter est un framework PHP léger basé sur le modèle MVC (Model-View-Controller), conçu pour créer rapidement des applications web dynamiques.</p>
+                <div class="list-container">
+                    <h4 class="green">Avantages</h4>
+                    <ul class="pros-list">
+                        <li>Très léger et rapide à exécuter.</li>
+                        <li>Facile à apprendre et à configurer.</li>
+                        <li>Bonne documentation officielle.</li>
+                        <li>Structure claire basée sur MVC.</li>
+                    </ul>
+                </div>
+                <div class="list-container">
+                    <h4 class="red">Inconvénients</h4>
+                    <ul class="cons-list">
+                        <li>Moins de fonctionnalités intégrées comparé à Laravel ou Symfony.</li>
+                        <li>Moins utilisé dans les projets récents (communauté plus petite).</li>
+                        <li>Gestion des dépendances plus limitée.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modale Bitbucket -->
+<div class="modal fade" id="bitbucketModal" tabindex="-1" aria-labelledby="bitbucketModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="bitbucketModalLabel">Bitbucket : Présentation, Avantages et Inconvénients</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+            </div>
+            <div class="modal-body">
+                <p>Bitbucket est une plateforme de gestion de code source basée sur Git, développée par Atlassian, souvent utilisée avec Jira et Trello dans les projets collaboratifs.</p>
+                <div class="list-container">
+                    <h4 class="green">Avantages</h4>
+                    <ul class="pros-list">
+                        <li>Intégration native avec Jira et Trello.</li>
+                        <li>Repos privés gratuits pour les petites équipes.</li>
+                        <li>Interface claire et bonne gestion des pull requests.</li>
+                        <li>Support Mercurial (historiquement) en plus de Git (abandonné depuis 2020).</li>
+                    </ul>
+                </div>
+                <div class="list-container">
+                    <h4 class="red">Inconvénients</h4>
+                    <ul class="cons-list">
+                        <li>Moins populaire que GitHub ou GitLab.</li>
+                        <li>Interface un peu moins fluide dans certains cas.</li>
+                        <li>Dépendance à l'écosystème Atlassian (si utilisé avec d'autres outils).</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <style>

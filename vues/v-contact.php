@@ -1,4 +1,4 @@
-<h1 class="text-center p-4 text-gradient">Me contactez</h1>
+<h1 class="text-center p-4 text-gradient">Me contacter</h1>
 
 <div class="container bordered-container">
     <form method="POST" action="?uc=formulaireSend">
