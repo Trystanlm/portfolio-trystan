@@ -48,6 +48,90 @@
 
                 <div id="m1" class="custom-modal">
                     <span class="close" onclick="closeModal('m1')">&times;</span>
+                    <iframe class="pdf-frame" src="./assets/documents/situations/sp3_m1.pdf" frameborder="0"></iframe>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="accordion-group">
+            <button class="accordion">
+                Mission 2 : Saisie des notes d'un juré
+            </button>
+            <div class="panel">
+                <p>
+                    Dans le but de permettre aux jurés d'établir une note personnel lors d'une degustation, une fonctionnalité a été développée. Lors de la saisie il est necessaire que le juré soit connecter à son compte personnel puis saisisse le vin qu'il souhaite noté afin de lui attribuer une note. </p>
+                <div class="mb-3">
+                    <button class="btn-doc" onclick="openModal('m2')">
+                        📄 Voir la documentation
+                    </button>
+                </div>
+
+                <div id="m2" class="custom-modal">
+                    <span class="close" onclick="closeModal('m2')">&times;</span>
+                    <iframe class="pdf-frame" src="./assets/documents/situations/sp3_m2.pdf" frameborder="0"></iframe>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="accordion-group">
+            <button class="accordion">
+                Mission 3 : Consultation des notes et clôture du concours
+            </button>
+            <div class="panel">
+                <p>
+                    Pour permettre une meilleure navigation et lisibilités, un tableau contenant les notes du jury a été établi. En parallèle la fonctionnalité permettant la clôture du concours a été développé </p>
+                <div class="mb-3">
+                    <button class="btn-doc" onclick="openModal('m3')">
+                        📄 Voir la documentation
+                    </button>
+                </div>
+
+                <div id="m3" class="custom-modal">
+                    <span class="close" onclick="closeModal('m3')">&times;</span>
+                    <iframe class="pdf-frame" src="./assets/documents/situations/sp3_m3.pdf" frameborder="0"></iframe>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="accordion-group">
+            <button class="accordion">
+                Mission 4 : Affichage du palmarès
+            </button>
+            <div class="panel">
+                <p>
+                    Un palmarès des vins a été mis en place dans le but de retrouver les vins les mieux notés. La note final d'un vin correspond à la moyenne de l'ensemble des notes qu'il a obtenu. </p>
+                <div class="mb-3">
+                    <button class="btn-doc" onclick="openModal('m4')">
+                        📄 Voir la documentation
+                    </button>
+                </div>
+
+                <div id="m4" class="custom-modal">
+                    <span class="close" onclick="closeModal('m4')">&times;</span>
+                    <iframe class="pdf-frame" src="./assets/documents/situations/sp3_m4.pdf" frameborder="0"></iframe>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="accordion-group">
+            <button class="accordion">
+                Mission 5 : Déploiement de l'application sur un serveur local
+            </button>
+            <div class="panel">
+                <p>
+                    Afin de répondre aux attentes du client l'application une fois finalisé à été déployer sur un serveur. </p>
+                <div class="mb-3">
+                    <button class="btn-doc" onclick="openModal('m1')">
+                        📄 Voir la documentation
+                    </button>
+                </div>
+
+                <div id="m1" class="custom-modal">
+                    <span class="close" onclick="closeModal('m1')">&times;</span>
                     <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m1_cms.pdf" frameborder="0"></iframe>
                 </div>
 
