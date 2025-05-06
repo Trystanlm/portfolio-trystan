@@ -21,6 +21,7 @@
         <img src="./assets/img/netbeans.png" alt="Netbeans logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#netbeansModal">
         <img src="./assets/img/mysql.png" alt="MySQL logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#mysqlModal">
         <img src="./assets/img/trello.png" alt="Trello logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#trelloModal">
+        <img src="./assets/img/bootstrap.png" alt="Bootstrap logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#bootstrapModal">
     </div>
 
 
@@ -35,13 +36,13 @@
                     Pour se familiariser avec le framework, un projet d’initiation a été mené. Celui-ci consistait à créer une page web intégrant une barre de navigation ainsi qu’un formulaire. </p>
                 <div class="mb-3">
                     <button class="btn-doc" onclick="openModal('m1')">
-                        📄 Voir la documentation
+                        📄 Voir le rendu
                     </button>
                 </div>
 
                 <div id="m1" class="custom-modal">
                     <span class="close" onclick="closeModal('m1')">&times;</span>
-                    <iframe class="pdf-frame" src="./assets/documents/sp1_m1_cms.pdf" frameborder="0"></iframe>
+                    <iframe class="pdf-frame" src="./assets/img/situations/initiation_bs.png" frameborder="0"></iframe>
                 </div>
 
 
@@ -64,7 +65,7 @@
 
                 <div id="m2" class="custom-modal">
                     <span class="close" onclick="closeModal('m2')">&times;</span>
-                    <iframe class="pdf-frame" src="./assets/documents/sp1_m1_cms.pdf" frameborder="0"></iframe>
+                    <iframe class="pdf-frame" src="./assets/documents/situations/sp2_m2.pdf" frameborder="0"></iframe>
                 </div>
 
             </div>
@@ -83,7 +84,7 @@
                     </button>
                     <div id="m3" class="custom-modal">
                         <span class="close" onclick="closeModal('m3')">&times;</span>
-                        <iframe class="pdf-frame" src="./assets/documents/sp1_m1_cms.pdf" frameborder="0"></iframe>
+                        <iframe class="pdf-frame" src="./assets/documents/situations/sp2_m3.pdf" frameborder="0"></iframe>
                     </div>
                 </div>
 
@@ -193,6 +194,38 @@
                     <ul class="cons-list">
                         <li>Peut être lourd et lent sur des projets volumineux.</li>
                         <li>Moins d'extensions disponibles comparé à Eclipse ou IntelliJ.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modale Bootstrap -->
+<div class="modal fade" id="bootstrapModal" tabindex="-1" aria-labelledby="bootstrapModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="bootstrapModalLabel">Bootstrap : Présentation, Avantages et Inconvénients</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Bootstrap est un framework CSS open source utilisé pour concevoir rapidement des interfaces web réactives et modernes.</p>
+                <div class="list-container">
+                    <h4 class="green">Avantages</h4>
+                    <ul class="pros-list">
+                        <li>Facilite la création d'interfaces responsive sans effort.</li>
+                        <li>Composants prêts à l'emploi et bien documentés.</li>
+                        <li>Large communauté et support constant.</li>
+                    </ul>
+                </div>
+                <div class="list-container">
+                    <h4 class="red">Inconvénients</h4>
+                    <ul class="cons-list">
+                        <li>Design parfois trop standardisé si non personnalisé.</li>
+                        <li>Peut alourdir les performances si mal optimisé.</li>
+                        <li>Dépendance à une structure HTML spécifique pour certains composants.</li>
                     </ul>
                 </div>
             </div>
