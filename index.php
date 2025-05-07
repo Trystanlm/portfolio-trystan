@@ -44,6 +44,9 @@
             case 'sp4':
                 include 'vues/situation_pro/v-sp4.php';
                 break;
+            case 'sp5':
+                include 'vues/situation_pro/v-sp5.php';
+                break;
 
             case 'profil':
                 include 'vues/v-profil.php'; // On inclut la vue de profil

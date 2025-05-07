@@ -100,11 +100,11 @@
                     En suivant le modèle MVC et en s'appuyant sur Bootstrap, une architecture claire a été mise en place : organisation optimisée des fichiers et dossiers, et intégration de fonctionnalités telles qu’un formulaire d’authentification entièrement fonctionnel. </p>
                 <div class="mb-3">
                     <button class="btn-doc" onclick="openModal('m4')">
-                        📄 Voir la documentation
+                        📄 Voir l'architecture
                     </button>
                     <div id="m4" class="custom-modal">
                         <span class="close" onclick="closeModal('m4')">&times;</span>
-                        <iframe class="pdf-frame" src="./assets/documents/sp1_m4_wp.pdf" frameborder="0"></iframe>
+                        <iframe class="pdf-frame center" src="./assets/img/situations/architectureBarrec.png" frameborder="0"></iframe>
                     </div>
                 </div>
             </div>
@@ -116,16 +116,23 @@
             </button>
             <div class="panel">
                 <p>
-                    L’application demandée a été développée avec succès, en réponse aux attentes du client. Chaque sprint a été accompagné d’une fiche de recette détaillant les fonctionnalités livrées et validées. </p>
+                    Voici le rendu de la fonctionnalité que j'ai réalisé. Elle est entièrement fonctionnelle et respecte les normes du développement web moderne.
+                    <br><br>
+                    Cependant, le développement de l'application n’a pas pu être finalisé, car les deux personnes initialement prévues pour collaborer avec moi sur ce projet ont quitté la formation en cours d'année.
+                </p>
                 <div class="mb-3">
-                    <button class="btn-doc" onclick="openModal('m5')">
-                        📄 Voir la documentation
+                    <button class="btn-doc" onclick="openModal('m5Video')">
+                        Voir la vidéo de rendu
                     </button>
-                    <div id="m5" class="custom-modal">
-                        <span class="close" onclick="closeModal('m5')">&times;</span>
-                        <iframe class="pdf-frame" src="./assets/documents/sp1_m4_wp.pdf" frameborder="0"></iframe>
+                    <div id="m5Video" class="custom-modal">
+                        <span class="close" onclick="closeModal('m5Video')">&times;</span>
+                        <video class="video-frame" controls>
+                            <source src="./assets/videos/rendubarec.mp4" type="video/mp4">
+                            Votre navigateur ne supporte pas la lecture vidéo.
+                        </video>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -440,6 +447,15 @@
 
     .competence-table .blue {
         color: rgb(1, 89, 183);
+    }
+
+    .video-frame {
+        width: 90vw;
+        max-height: 90vh;
+        border-radius: 12px;
+        box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+        margin-left: 4vw;
+        background-color: #000;
     }
 </style>
 

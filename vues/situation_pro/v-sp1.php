@@ -88,7 +88,7 @@
                     </button>
                     <div id="m3" class="custom-modal">
                         <span class="close" onclick="closeModal('m3')">&times;</span>
-                        <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m1_cms.pdf" frameborder="0"></iframe>
+                        <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m3.pdf" frameborder="0"></iframe>
                     </div>
                 </div>
 
@@ -129,7 +129,7 @@
                     </button>
                     <div id="m5" class="custom-modal">
                         <span class="close" onclick="closeModal('m5')">&times;</span>
-                        <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m4_wp.pdf" frameborder="0"></iframe>
+                        <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m5.pdf" frameborder="0"></iframe>
                     </div>
                 </div>
             </div>
@@ -143,15 +143,6 @@
                 <p>
                     Une présentation du site finalisé a été préparée sous forme de diaporama. Une démonstration de l’interface WordPress a également été fournie pour faciliter sa prise en main par le client.
                 </p>
-                <div class="mb-3">
-                    <button class="btn-doc" onclick="openModal('m6')">
-                        📄 Voir la documentation
-                    </button>
-                    <div id="m6" class="custom-modal">
-                        <span class="close" onclick="closeModal('m6')">&times;</span>
-                        <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m4_wp.pdf" frameborder="0"></iframe>
-                    </div>
-                </div>
             </div>
         </div>
 
@@ -170,7 +161,7 @@
                     </button>
                     <div id="m7" class="custom-modal">
                         <span class="close" onclick="closeModal('m7')">&times;</span>
-                        <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m4_wp.pdf" frameborder="0"></iframe>
+                        <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m7.pdf" frameborder="0"></iframe>
                     </div>
                 </div>
             </div>

@@ -40,7 +40,16 @@
                     <a href="index.php?uc=sp4" class="btn btn-primary">Plus d'infos</a>
                 </div>
             </div>
-            <p>Gestion des eaux - SEG</p>
+            <p>Gestion des eaux (JSP) - SEG</p>
+        </div>
+        <div class="col-3">
+            <div class="card d-flex align-items-center justify-content-center" style="width: 18rem; height: 10rem;">
+                <img src="./assets/img/seg.png" class="card-img-top" alt="logo seg">
+                <div class="card-overlay">
+                    <a href="index.php?uc=sp5" class="btn btn-primary">Plus d'infos</a>
+                </div>
+            </div>
+            <p>Gestion des eaux (Android) - SEG</p>
         </div>
     </div>
 </div>

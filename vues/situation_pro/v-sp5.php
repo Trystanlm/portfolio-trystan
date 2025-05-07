@@ -7,19 +7,23 @@
     <h1 class="fw-bold text-center mb-4 text-gradient">Gestion des eaux - SEG</h1>
     <h3 class="text-gradient">Contexte</h3>
     <p>
-        Le SEG souhaite disposer d’une application web (application « gestconso ») permettant la gestion
-        de la consommation d’eau et l’exploitation des données concernant les relevés des compteurs d’eau.<br>
-        Par la suite, les agents communaux devront disposer d’une application mobile pour les relevés des
-        compteurs d’eau (vannes ou compteurs individuels).
+        Le Syndicat des Eaux de Gévaudan (SEG) s’est ainsi donné pour mission le captage,
+        le traitement et la distribution de l’eau potable pour satisfaire les usagers répartis sur le
+        territoire des communes regroupées au sein d’un syndicat de communes. Une fois par an, les agents
+        du SEG relèvent les consommations d'eau des compteurs vannes de chaque secteur. Le relevé du nouvel
+        index d'un compteur vanne sera saisi et enregistré sur le support mobile mis à disposition de chaque agent.
+        Les données sont ensuite exportées dans la base de données utilisée par l'application Gestconso de SEG.
     </p>
 
     <div class="accordion-container">
         <h3 class="text-gradient mb-4">Missions réalisées</h3>
 
         <div class="accordion-group">
-            <button class="accordion">Mission 1 : Mise en place des règles métiers et mise en place des tests unitaires</button>
+            <button class="accordion">Mission 1 : Mise en place des classes métiers et des Webservices</button>
             <div class="panel">
-                <p>La première étape a consisté à implémenter les règles métiers en développant les méthodes appropriées au sein des classes métier, conformément aux exigences du SEG. Des tests unitaires ont ensuite été mis en place pour vérifier le bon fonctionnement de ces méthodes et leur conformité aux règles établies.</p>
+                <p>
+                    Dans le cadre de ma mission, j'ai intégré la bibliothèque des classes métiers pour en permettre l'utilisation au sein de l'application Android. J'ai également développé les webservices nécessaires pour synchroniser les données entre la base embarquée sur Android et celle de l'application Web.
+                </p>
                 <div class="mb-3">
                     <button class="btn-doc" onclick="openModal('m1')">📄 Voir la documentation</button>
                 </div>
@@ -31,9 +35,9 @@
         </div>
 
         <div class="accordion-group">
-            <button class="accordion">Mission 2 : Mise en place des annotations JPA</button>
+            <button class="accordion">Mission 2 : Création de la page d'accueil de l'application Android</button>
             <div class="panel">
-                <p>Les annotations JPA ont été utilisées pour mapper les classes métier aux tables correspondantes de la base de données.</p>
+                <p>Une base de données a été conçue pour servir de fondation au projet d'application. Une documentation technique est attendue, accompagnée des scripts permettant de créer la structure de la base, d'alimenter les tables, et de gérer les données.</p>
                 <div class="mb-3">
                     <button class="btn-doc" onclick="openModal('m2')">📄 Voir la documentation</button>
                 </div>
@@ -45,9 +49,9 @@
         </div>
 
         <div class="accordion-group">
-            <button class="accordion">Mission 3 : Affichage du tableau des relevés pour chaque commune, secteur et compteur</button>
+            <button class="accordion">Mission 3 : Enregistrer les données d'un compteur Vanne</button>
             <div class="panel">
-                <p>Un tableau a été conçu pour afficher les anomalies de consommation d’eau par commune, avec la possibilité de naviguer entre les secteurs et les vannes associés à chaque commune.</p>
+                <p>Ce sprint a abouti à l'implémentation de la fonctionnalité permettant aux agents de relever les consommations des vannes.</p>
                 <div class="mb-3">
                     <button class="btn-doc" onclick="openModal('m3')">📄 Voir la documentation</button>
                 </div>
@@ -59,9 +63,9 @@
         </div>
 
         <div class="accordion-group">
-            <button class="accordion">Mission 4 : Ajout d'un nouveau compteur Usager</button>
+            <button class="accordion">Mission 4 : Importer les données dans la base de données embarquée</button>
             <div class="panel">
-                <p>Un formulaire de création a été développé pour permettre l’ajout d’un compteur Usager et son enregistrement dans la base de données.</p>
+                <p>L’objectif de ce sprint est de mettre en place la récupération des données contenues dans la base de données de l’application Web.</p>
                 <div class="mb-3">
                     <button class="btn-doc" onclick="openModal('m4')">📄 Voir la documentation</button>
                 </div>
@@ -73,9 +77,9 @@
         </div>
 
         <div class="accordion-group">
-            <button class="accordion">Mission 5 : Déploiement de l'application</button>
+            <button class="accordion">Mission 5 : Exporter les données dans la base de données embarquée</button>
             <div class="panel">
-                <p>Pour se familiariser avec le framework, un projet d’initiation a été mené. Celui-ci consistait à créer une page web avec un formulaire de connexion et une gestion des accès avec une page accessible uniquement après connexion.</p>
+                <p>Ce sprint vise à permettre l’envoi des données extraites de la base de données de l’application Web.</p>
                 <div class="mb-3">
                     <button class="btn-doc" onclick="openModal('m5')">📄 Voir la documentation</button>
                 </div>
@@ -93,7 +97,7 @@
         <table class="competence-table">
             <thead>
                 <tr>
-                    <th>SEG - Semestre 4 – Gestion des eaux – Jakarta EE, JSP</th>
+                    <th>SEG - Semestre 4 – Gestion des eaux – Android</th>
                     <th>Gérer le patrimoine informatique</th>
                     <th>Répondre aux incidents et demandes d’évolution</th>
                     <th>Développer la présence en ligne</th>
@@ -104,16 +108,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td class="desc"><span class="blue"> SEG </span> – Implémentation des règles métiers, tests unitaires et persistance des données</td>
-                    <td class="x">X</td>
-                    <td class="x">X</td>
-                    <td></td>
-                    <td class="x">X</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td class="desc"><span class="blue"> SEG </span> – Application web GestConso</td>
+                    <td class="desc"><span class="blue"> SEG </span> – Mise en place de WebServices REST</td>
                     <td></td>
                     <td class="x">X</td>
                     <td></td>
@@ -122,9 +117,19 @@
                     <td></td>
                 </tr>
                 <tr>
-                    <td class="desc"><span class="blue"> SEG </span> – Déploiement de l’application web sur un serveur de production (GlassFish)</td>
+                    <td class="desc"><span class="blue"> SEG </span> – Déploiement de l’API REST sur un serveur de production (GlassFish)</td>
                     <td></td>
                     <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="x">X</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="desc"><span class="blue"> SEG </span> – Création de l’application mobile « appli_gest_vannes »
+                    </td>
+                    <td></td>
+                    <td class="x">X</td>
                     <td></td>
                     <td></td>
                     <td class="x">X</td>
