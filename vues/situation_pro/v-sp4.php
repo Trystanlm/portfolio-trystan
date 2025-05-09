@@ -14,11 +14,17 @@
     </p>
     <h3 class="text-gradient">Environnement de développement & Gestion de projet</h3>
     <div class="d-flex justify-content-start gap-3 flex-wrap">
-        <img src="./assets/img/sqlserver.png" alt="Netbeans logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#sqlServerModal">
+        <img src="./assets/img/netbeans.png" alt="Netbeans logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#netbeansModal">
+
+        <img src="./assets/img/sqlserver.png" alt="SQLServer logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#sqlServerModal">
         <img src="./assets/img/hibernate.png" alt="MySQL logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#hibernateModal">
         <img src="./assets/img/jakarta.png" alt="CodeIgniter logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#jakartaModal">
-        <img src="./assets/img/bitbucket.png" alt="Trello logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#bitbucketModal">
-        <img src="./assets/img/jiraBlanc.png" alt="Trello logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#jiraModal">
+        <img src="./assets/img/bitbucket.png" alt="Bitbucket logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#bitbucketModal">
+        <img src="./assets/img/jiraBlanc.png" alt="Jira logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#jiraModal">
+        <img src="./assets/img/junit.png" alt="JUnit logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#junitModal">
+        <img src="./assets/img/glassfish.png" alt="GlassFish logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#glassfishModal">
+
+
 
     </div>
     <div class="accordion-container">
@@ -160,8 +166,99 @@
             </tbody>
         </table>
     </div>
-
 </div>
+<!-- Modale JUnit -->
+<div class="modal fade" id="junitModal" tabindex="-1" aria-labelledby="junitModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="junitModalLabel">JUnit : Présentation, Avantages et Inconvénients</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+            </div>
+            <div class="modal-body">
+                <p>JUnit est un framework de test unitaire populaire pour le langage Java. Il est largement utilisé pour le développement piloté par les tests (TDD).</p>
+                <div class="list-container">
+                    <h4 class="green">Avantages</h4>
+                    <ul class="pros-list">
+                        <li>Facile à intégrer avec les IDE comme Eclipse ou IntelliJ.</li>
+                        <li>Supporte l'automatisation des tests et CI/CD.</li>
+                        <li>Bonne documentation et large communauté.</li>
+                        <li>Compatible avec les autres outils de test Java (Mockito, AssertJ, etc.).</li>
+                    </ul>
+                </div>
+                <div class="list-container">
+                    <h4 class="red">Inconvénients</h4>
+                    <ul class="cons-list">
+                        <li>Spécifique au langage Java.</li>
+                        <li>La version 5 (JUnit Jupiter) peut introduire de la complexité par rapport aux versions antérieures.</li>
+                        <li>Peut nécessiter des bibliothèques supplémentaires pour les tests avancés.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modale NetBeans -->
+<div class="modal fade" id="netbeansModal" tabindex="-1" aria-labelledby="netbeansModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="netbeansModalLabel">NetBeans : Présentation, Avantages et Inconvénients</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>NetBeans est un environnement de développement intégré (IDE) principalement utilisé pour le développement Java, mais il prend également en charge d'autres langages.</p>
+                <div class="list-container">
+                    <h4 class="green">Avantages</h4>
+                    <ul class="pros-list">
+                        <li>Interface claire et bien organisée.</li>
+                        <li>Support natif pour Maven, Git, et Java EE.</li>
+                        <li>Gratuit et open source.</li>
+                    </ul>
+                </div>
+                <div class="list-container">
+                    <h4 class="red">Inconvénients</h4>
+                    <ul class="cons-list">
+                        <li>Peut être lourd et lent sur des projets volumineux.</li>
+                        <li>Moins d'extensions disponibles comparé à Eclipse ou IntelliJ.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modale GlassFish -->
+<div class="modal fade" id="glassfishModal" tabindex="-1" aria-labelledby="glassfishModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="glassfishModalLabel">GlassFish : Présentation, Avantages et Inconvénients</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+            </div>
+            <div class="modal-body">
+                <p>GlassFish est un serveur d'applications open-source conforme aux spécifications Jakarta EE (anciennement Java EE), utilisé pour exécuter des applications Java d'entreprise.</p>
+                <div class="list-container">
+                    <h4 class="green">Avantages</h4>
+                    <ul class="pros-list">
+                        <li>Conforme aux spécifications Jakarta EE.</li>
+                        <li>Facile à configurer et à utiliser pour les développeurs Java.</li>
+                        <li>Bon support pour les EJB, JPA, JMS, etc.</li>
+                        <li>Open-source et régulièrement mis à jour par Eclipse Foundation.</li>
+                    </ul>
+                </div>
+                <div class="list-container">
+                    <h4 class="red">Inconvénients</h4>
+                    <ul class="cons-list">
+                        <li>Moins performant que des alternatives comme WildFly ou Payara en production.</li>
+                        <li>Support communautaire limité comparé à d'autres solutions.</li>
+                        <li>Peut être complexe à optimiser pour des déploiements lourds.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Modale Bitbucket -->
 <div class="modal fade" id="bitbucketModal" tabindex="-1" aria-labelledby="bitbucketModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -193,6 +290,7 @@
         </div>
     </div>
 </div>
+
 <div class="modal fade" id="jiraModal" tabindex="-1" aria-labelledby="jiraModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">

@@ -29,7 +29,7 @@
             <div class="p-4 bg-secondary bg-opacity-10 rounded-3 shadow-sm border">
                 <i class="bi bi-layers fs-1"></i>
                 <h5 class="mt-3">Minutieux</h5>
-                <p">Prendre le temps pour mettre en place une solution et n’oublier aucun détail</p>
+                <p>Prendre le temps pour mettre en place une solution et n’oublier aucun détail</p>
             </div>
         </div>
         <div class="col-md-4 mb-4">
@@ -43,7 +43,7 @@
             <div class="p-4 bg-secondary bg-opacity-10 rounded-3 shadow-sm border">
                 <i class="bi bi-eye fs-1"></i>
                 <h5 class="mt-3">Curieux</h5>
-                <p">Il est important de rester curieux pour rester informé des dernières nouveautés</p>
+                <p>Il est important de rester curieux pour rester informé des dernières nouveautés</p>
             </div>
         </div>
     </div>

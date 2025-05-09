@@ -3,6 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta name="description" content="Portfolio de Trystan Le Marec, développeur web spécialisé en développement d'application. Découvrez mes projets, compétences et expériences." />
+    <meta name="keywords" content="portfolio développeur web, Trystan, Trystan Le Marec, HTML, CSS, JavaScript, React, Java, projets web, développeur freelance" />
+    <meta name="author" content="Trystan Le Marec" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Portefolio Trystan</title>
     <link rel="icon" href="assets/img/flavicon.ico" />
     <link rel="stylesheet" href="./assets/css/logo.css">

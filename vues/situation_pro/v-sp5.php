@@ -16,43 +16,46 @@
     </p>
     <h3 class="text-gradient">Environnement de développement & Gestion de projet</h3>
     <div class="d-flex justify-content-start gap-3 flex-wrap">
-        <img src="./assets/img/sqlserver.png" alt="Netbeans logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#netbeansModal">
-        <img src="./assets/img/hibernate.png" alt="MySQL logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#mysqlModal">
-        <img src="./assets/img/jakarta.png" alt="CodeIgniter logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#codeigniterModal">
-        <img src="./assets/img/bitbucket.png" alt="Trello logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#bitbucketModal">
-        <img src="./assets/img/jiraBlanc.png" alt="Trello logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#jiraModal">
+        <img src="./assets/img/android.jpg" alt="AndroidStudio logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#androidStudioModal">
+        <img src="./assets/img/sqlite.png" alt="SQlite logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#sqliteModal">
+        <img src="./assets/img/jakarta.png" alt="Jakarta logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#JakartaModal">
+        <img src="./assets/img/glassfish.png" alt="GlassFish logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#glassfishModal">
+        <img src="./assets/img/netbeans.png" alt="Netbeans logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#netbeansModal">
+        <img src="./assets/img/sqlserver.png" alt="SQLServer logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#sqlServerModal">
 
     </div>
     <div class="accordion-container">
         <h3 class="text-gradient mb-4">Missions réalisées</h3>
 
         <div class="accordion-group">
-            <button class="accordion">Mission 1 : Mise en place des classes métiers et des Webservices</button>
+            <button class="accordion">Mission 1 : Mise en place des Webservices</button>
             <div class="panel">
                 <p>
                     Dans le cadre de ma mission, j'ai intégré la bibliothèque des classes métiers pour en permettre l'utilisation au sein de l'application Android. J'ai également développé les webservices nécessaires pour synchroniser les données entre la base embarquée sur Android et celle de l'application Web.
                 </p>
-                <div class="mb-3">
-                    <button class="btn-doc" onclick="openModal('m1')">📄 Voir la documentation</button>
-                </div>
+                <p>Voici un extrait des WebServices implémentées présents dans la classe CommuneResource</p>
+                <img src="./assets/img/situations/resourceCommune.png" alt="Bitbucket" class="img-fluid mb-3">
+                <p>Voici un extrait des WebServices implémentées présents dans la classe ReleveResource</p>
+                <img src="./assets/img/situations/resourceReleve.png" alt="Bitbucket" class="img-fluid mb-3">
+                <img src="./assets/img/situations/resourceReleve2.png" alt="Bitbucket" class="img-fluid mb-3">
             </div>
-            <div id="m1" class="custom-modal">
-                <span class="close" onclick="closeModal('m1')">&times;</span>
-                <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m4_wp.pdf" frameborder="0"></iframe>
-            </div>
+
         </div>
 
         <div class="accordion-group">
             <button class="accordion">Mission 2 : Création de la page d'accueil de l'application Android</button>
             <div class="panel">
                 <p>Une base de données a été conçue pour servir de fondation au projet d'application. Une documentation technique est attendue, accompagnée des scripts permettant de créer la structure de la base, d'alimenter les tables, et de gérer les données.</p>
-                <div class="mb-3">
-                    <button class="btn-doc" onclick="openModal('m2')">📄 Voir la documentation</button>
+                <p>Voici le visuel de la page d'accueil de l'application en paysage et portrait :</p>
+                <div class="row">
+                    <div class="text-center col-6">
+                        <img src="./assets/img/situations/accueilAndroid.png" alt="Bitbucket" class="img-fluid mb-3">
+                    </div>
+                    <div class="text-center col-6">
+                        <img src="./assets/img/situations/accueilAndroid3.png" alt="Bitbucket" class="img-fluid mb-3">
+                    </div>
                 </div>
-                <div id="m2" class="custom-modal">
-                    <span class="close" onclick="closeModal('m2')">&times;</span>
-                    <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m4_wp.pdf" frameborder="0"></iframe>
-                </div>
+                <img src="./assets/img/situations/accueilAndroid2.png" alt="Bitbucket" class="img-fluid mb-3">
             </div>
         </div>
 
@@ -147,6 +150,158 @@
         </table>
     </div>
 
+</div>
+<!-- Modale SQL Server -->
+<div class="modal fade" id="sqlServerModal" tabindex="-1" aria-labelledby="sqlServerModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="sqlServerModalLabel">SQL Server : Présentation, Avantages et Inconvénients</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>SQL Server est un Système de Gestion de Base de Données (SGBD) développé par Microsoft, largement utilisé dans les environnements Windows.</p>
+                <div class="list-container">
+                    <h4 class="green">Avantages</h4>
+                    <ul class="pros-list">
+                        <li>Intégration native avec les outils Microsoft (Azure, .NET...)</li>
+                        <li>Interface graphique performante (SSMS).</li>
+                        <li>Haute sécurité et fiabilité.</li>
+                    </ul>
+                </div>
+                <div class="list-container">
+                    <h4 class="red">Inconvénients</h4>
+                    <ul class="cons-list">
+                        <li>Licence coûteuse pour les éditions complètes.</li>
+                        <li>Moins flexible que certains SGBD open source.</li>
+                        <li>Principalement orienté Windows (même si support Linux existe).</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modale NetBeans -->
+<div class="modal fade" id="netbeansModal" tabindex="-1" aria-labelledby="netbeansModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="netbeansModalLabel">NetBeans : Présentation, Avantages et Inconvénients</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>NetBeans est un environnement de développement intégré (IDE) principalement utilisé pour le développement Java, mais il prend également en charge d'autres langages.</p>
+                <div class="list-container">
+                    <h4 class="green">Avantages</h4>
+                    <ul class="pros-list">
+                        <li>Interface claire et bien organisée.</li>
+                        <li>Support natif pour Maven, Git, et Java EE.</li>
+                        <li>Gratuit et open source.</li>
+                    </ul>
+                </div>
+                <div class="list-container">
+                    <h4 class="red">Inconvénients</h4>
+                    <ul class="cons-list">
+                        <li>Peut être lourd et lent sur des projets volumineux.</li>
+                        <li>Moins d'extensions disponibles comparé à Eclipse ou IntelliJ.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modale GlassFish -->
+<div class="modal fade" id="glassfishModal" tabindex="-1" aria-labelledby="glassfishModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="glassfishModalLabel">GlassFish : Présentation, Avantages et Inconvénients</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+            </div>
+            <div class="modal-body">
+                <p>GlassFish est un serveur d'applications open-source conforme aux spécifications Jakarta EE (anciennement Java EE), utilisé pour exécuter des applications Java d'entreprise.</p>
+                <div class="list-container">
+                    <h4 class="green">Avantages</h4>
+                    <ul class="pros-list">
+                        <li>Conforme aux spécifications Jakarta EE.</li>
+                        <li>Facile à configurer et à utiliser pour les développeurs Java.</li>
+                        <li>Bon support pour les EJB, JPA, JMS, etc.</li>
+                        <li>Open-source et régulièrement mis à jour par Eclipse Foundation.</li>
+                    </ul>
+                </div>
+                <div class="list-container">
+                    <h4 class="red">Inconvénients</h4>
+                    <ul class="cons-list">
+                        <li>Moins performant que des alternatives comme WildFly ou Payara en production.</li>
+                        <li>Support communautaire limité comparé à d'autres solutions.</li>
+                        <li>Peut être complexe à optimiser pour des déploiements lourds.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modale SQLite -->
+<div class="modal fade" id="sqliteModal" tabindex="-1" aria-labelledby="sqliteModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="sqliteModalLabel">SQLite : Présentation, Avantages et Inconvénients</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+            </div>
+            <div class="modal-body">
+                <p>SQLite est une base de données relationnelle légère, embarquée, sans serveur, très utilisée dans les applications mobiles et embarquées.</p>
+                <div class="list-container">
+                    <h4 class="green">Avantages</h4>
+                    <ul class="pros-list">
+                        <li>Très légère et facile à intégrer dans les applications.</li>
+                        <li>Sans configuration serveur : fichiers autonomes.</li>
+                        <li>Parfaitement adaptée aux projets mobiles et embarqués.</li>
+                        <li>Open-source et extrêmement fiable.</li>
+                    </ul>
+                </div>
+                <div class="list-container">
+                    <h4 class="red">Inconvénients</h4>
+                    <ul class="cons-list">
+                        <li>Pas adaptée aux charges de travail très élevées ou multi-utilisateurs.</li>
+                        <li>Fonctionnalités limitées comparées aux SGBD complets comme PostgreSQL ou MySQL.</li>
+                        <li>Pas de gestion native du clustering ou de la haute disponibilité.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modale Android Studio -->
+<div class="modal fade" id="androidStudioModal" tabindex="-1" aria-labelledby="androidStudioModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="androidStudioModalLabel">Android Studio : Présentation, Avantages et Inconvénients</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+            </div>
+            <div class="modal-body">
+                <p>Android Studio est l’environnement de développement officiel pour Android, basé sur IntelliJ IDEA et soutenu par Google.</p>
+                <div class="list-container">
+                    <h4 class="green">Avantages</h4>
+                    <ul class="pros-list">
+                        <li>Support officiel par Google et mise à jour régulière.</li>
+                        <li>Outils de conception graphique intégrés (layout editor, preview).</li>
+                        <li>Émulateur Android performant et rapide.</li>
+                        <li>Support Kotlin, Java et C++.</li>
+                    </ul>
+                </div>
+                <div class="list-container">
+                    <h4 class="red">Inconvénients</h4>
+                    <ul class="cons-list">
+                        <li>Peut être lourd et gourmand en ressources système.</li>
+                        <li>Temps de build parfois long pour les gros projets.</li>
+                        <li>Courbe d’apprentissage pour les débutants.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 
