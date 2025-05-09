@@ -14,7 +14,15 @@
         index d'un compteur vanne sera saisi et enregistré sur le support mobile mis à disposition de chaque agent.
         Les données sont ensuite exportées dans la base de données utilisée par l'application Gestconso de SEG.
     </p>
+    <h3 class="text-gradient">Environnement de développement & Gestion de projet</h3>
+    <div class="d-flex justify-content-start gap-3 flex-wrap">
+        <img src="./assets/img/sqlserver.png" alt="Netbeans logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#netbeansModal">
+        <img src="./assets/img/hibernate.png" alt="MySQL logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#mysqlModal">
+        <img src="./assets/img/jakarta.png" alt="CodeIgniter logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#codeigniterModal">
+        <img src="./assets/img/bitbucket.png" alt="Trello logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#bitbucketModal">
+        <img src="./assets/img/jiraBlanc.png" alt="Trello logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#jiraModal">
 
+    </div>
     <div class="accordion-container">
         <h3 class="text-gradient mb-4">Missions réalisées</h3>
 

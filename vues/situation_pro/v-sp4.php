@@ -12,21 +12,44 @@
         Par la suite, les agents communaux devront disposer d’une application mobile pour les relevés des
         compteurs d’eau (vannes ou compteurs individuels).
     </p>
+    <h3 class="text-gradient">Environnement de développement & Gestion de projet</h3>
+    <div class="d-flex justify-content-start gap-3 flex-wrap">
+        <img src="./assets/img/sqlserver.png" alt="Netbeans logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#sqlServerModal">
+        <img src="./assets/img/hibernate.png" alt="MySQL logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#hibernateModal">
+        <img src="./assets/img/jakarta.png" alt="CodeIgniter logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#jakartaModal">
+        <img src="./assets/img/bitbucket.png" alt="Trello logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#bitbucketModal">
+        <img src="./assets/img/jiraBlanc.png" alt="Trello logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#jiraModal">
 
+    </div>
     <div class="accordion-container">
         <h3 class="text-gradient mb-4">Missions réalisées</h3>
+        <div class="accordion-group">
+            <button class="accordion">
+                Gestion de projet
+            </button>
+            <div class="panel">
+                <p>
+                    Ce projet a été réalisé en mode projet en équipe, avec une gestion de version via Bitbucket et un suivi des tâches via Jira. Le développement a été effectué en utilisant Jakarta EE, Hibernate et SQL Server pour la gestion de la base de données.<br>
+                    <br>
+                    Voici les différentes branches de développement utilisées pour le projet :<br>
+                </p>
+                <img src="./assets/img/situations/branch_seg.png" alt="Bitbucket" class="img-fluid mb-3">
+                <p>
+                    Voic une liste des différents commits réalisés sur la branche principale du projet :<br>
+                </p>
+                <img src="./assets/img/situations/commit_seg.png" alt="Bitbucket" class="img-fluid mb-3">
 
+            </div>
+        </div>
         <div class="accordion-group">
             <button class="accordion">Mission 1 : Mise en place des règles métiers et mise en place des tests unitaires</button>
             <div class="panel">
                 <p>La première étape a consisté à implémenter les règles métiers en développant les méthodes appropriées au sein des classes métier, conformément aux exigences du SEG. Des tests unitaires ont ensuite été mis en place pour vérifier le bon fonctionnement de ces méthodes et leur conformité aux règles établies.</p>
-                <div class="mb-3">
-                    <button class="btn-doc" onclick="openModal('m1')">📄 Voir la documentation</button>
-                </div>
-            </div>
-            <div id="m1" class="custom-modal">
-                <span class="close" onclick="closeModal('m1')">&times;</span>
-                <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m4_wp.pdf" frameborder="0"></iframe>
+                </p>
+                <p>Voici un extrait des méthodes implémentées présentent dans la classe métier Commune</p>
+                <img src="./assets/img/situations/methode_seg.png" alt="Bitbucket" class="img-fluid mb-3">
+                <p>Voici un extrait des méthodes implémentées présentent dans la classe métier Compteur</p>
+                <img src="./assets/img/situations/methode_seg2.png" alt="Bitbucket" class="img-fluid mb-3">
             </div>
         </div>
 
@@ -34,13 +57,10 @@
             <button class="accordion">Mission 2 : Mise en place des annotations JPA</button>
             <div class="panel">
                 <p>Les annotations JPA ont été utilisées pour mapper les classes métier aux tables correspondantes de la base de données.</p>
-                <div class="mb-3">
-                    <button class="btn-doc" onclick="openModal('m2')">📄 Voir la documentation</button>
-                </div>
-                <div id="m2" class="custom-modal">
-                    <span class="close" onclick="closeModal('m2')">&times;</span>
-                    <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m4_wp.pdf" frameborder="0"></iframe>
-                </div>
+                <p>Voici un extrait de la classe métier Compteur avec les annotations JPA</p>
+                <img src="./assets/img/situations/compteur.png" alt="Bitbucket" class="img-fluid mb-3">
+                <p>Voici un extrait de la classe métier Commune avec les annotations JPA</p>
+                <img src="./assets/img/situations/commune.png" alt="Bitbucket" class="img-fluid mb-3">
             </div>
         </div>
 
@@ -49,25 +69,34 @@
             <div class="panel">
                 <p>Un tableau a été conçu pour afficher les anomalies de consommation d’eau par commune, avec la possibilité de naviguer entre les secteurs et les vannes associés à chaque commune.</p>
                 <div class="mb-3">
-                    <button class="btn-doc" onclick="openModal('m3')">📄 Voir la documentation</button>
-                </div>
-                <div id="m3" class="custom-modal">
-                    <span class="close" onclick="closeModal('m3')">&times;</span>
-                    <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m4_wp.pdf" frameborder="0"></iframe>
+                    <button class="btn-doc" onclick="openModal('m5Video')">
+                        Voir la vidéo de rendu
+                    </button>
+                    <div id="m5Video" class="custom-modal">
+                        <span class="close" onclick="closeModal('m5Video')">&times;</span>
+                        <video class="video-frame" controls>
+                            <source src="./assets/videos/renduanomalie.mp4" type="video/mp4">
+                            Votre navigateur ne supporte pas la lecture vidéo.
+                        </video>
+                    </div>
                 </div>
             </div>
         </div>
-
         <div class="accordion-group">
-            <button class="accordion">Mission 4 : Ajout d'un nouveau compteur Usager</button>
+            <button class="accordion">Mission 4 : Ajout d'un nouveau compteur</button>
             <div class="panel">
-                <p>Un formulaire de création a été développé pour permettre l’ajout d’un compteur Usager et son enregistrement dans la base de données.</p>
+                <p>Un formulaire de création a été développé pour permettre l’ajout d’un compteur Usager ou Vanne et son enregistrement dans la base de données.</p>
                 <div class="mb-3">
-                    <button class="btn-doc" onclick="openModal('m4')">📄 Voir la documentation</button>
-                </div>
-                <div id="m4" class="custom-modal">
-                    <span class="close" onclick="closeModal('m4')">&times;</span>
-                    <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m4_wp.pdf" frameborder="0"></iframe>
+                    <button class="btn-doc" onclick="openModal('m5Video')">
+                        Voir la vidéo de rendu
+                    </button>
+                    <div id="m5Video" class="custom-modal">
+                        <span class="close" onclick="closeModal('m5Video')">&times;</span>
+                        <video class="video-frame" controls>
+                            <source src="./assets/videos/renduajoutcompt.mp4" type="video/mp4">
+                            Votre navigateur ne supporte pas la lecture vidéo.
+                        </video>
+                    </div>
                 </div>
             </div>
         </div>
@@ -75,14 +104,12 @@
         <div class="accordion-group">
             <button class="accordion">Mission 5 : Déploiement de l'application</button>
             <div class="panel">
-                <p>Pour se familiariser avec le framework, un projet d’initiation a été mené. Celui-ci consistait à créer une page web avec un formulaire de connexion et une gestion des accès avec une page accessible uniquement après connexion.</p>
-                <div class="mb-3">
-                    <button class="btn-doc" onclick="openModal('m5')">📄 Voir la documentation</button>
-                </div>
-                <div id="m5" class="custom-modal">
-                    <span class="close" onclick="closeModal('m5')">&times;</span>
-                    <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m4_wp.pdf" frameborder="0"></iframe>
-                </div>
+                <p>Le déploiement de l’application a été réalisé sur un serveur GlassFish configurer par nos camarades de SISR, permettant ainsi un accès à distance via une URL dédiée.</p>
+                <p>
+                    La première étape pour le déploiement de l’application a été de créer un fichier WAR (Web Application Archive) à partir du projet Java EE. Ce fichier contient tous les fichiers nécessaires à l’exécution de l’application sur un serveur d’applications Java EE.
+                    <br><br>
+                    Ensuite, le fichier WAR a été déployé sur le serveur GlassFish. Cela a été réalisé en utilisant l’interface d’administration de GlassFish.
+                </p>
             </div>
         </div>
 
@@ -135,7 +162,156 @@
     </div>
 
 </div>
-
+<!-- Modale Bitbucket -->
+<div class="modal fade" id="bitbucketModal" tabindex="-1" aria-labelledby="bitbucketModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="bitbucketModalLabel">Bitbucket : Présentation, Avantages et Inconvénients</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+            </div>
+            <div class="modal-body">
+                <p>Bitbucket est une plateforme de gestion de code source basée sur Git, développée par Atlassian, souvent utilisée avec Jira et Trello dans les projets collaboratifs.</p>
+                <div class="list-container">
+                    <h4 class="green">Avantages</h4>
+                    <ul class="pros-list">
+                        <li>Intégration native avec Jira et Trello.</li>
+                        <li>Repos privés gratuits pour les petites équipes.</li>
+                        <li>Interface claire et bonne gestion des pull requests.</li>
+                        <li>Support Mercurial (historiquement) en plus de Git (abandonné depuis 2020).</li>
+                    </ul>
+                </div>
+                <div class="list-container">
+                    <h4 class="red">Inconvénients</h4>
+                    <ul class="cons-list">
+                        <li>Moins populaire que GitHub ou GitLab.</li>
+                        <li>Interface un peu moins fluide dans certains cas.</li>
+                        <li>Dépendance à l'écosystème Atlassian (si utilisé avec d'autres outils).</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="jiraModal" tabindex="-1" aria-labelledby="jiraModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="jiraModalLabel">Jira : Présentation, Avantages et Inconvénients</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Jira est un outil de gestion de projet et de suivi des bugs, développé par Atlassian, souvent utilisé pour les méthodes agiles.</p>
+                <div class="list-container">
+                    <h4 class="green">Avantages</h4>
+                    <ul class="pros-list">
+                        <li>Très flexible et personnalisable.</li>
+                        <li>Intégration facile avec d'autres outils Atlassian.</li>
+                        <li>Gestion efficace des tâches et des workflows.</li>
+                    </ul>
+                </div>
+                <div class="list-container">
+                    <h4 class="red">Inconvénients</h4>
+                    <ul class="cons-list">
+                        <li>Courbe d'apprentissage élevée.</li>
+                        <li>Coût élevé pour les grandes équipes.</li>
+                        <li>Peut devenir complexe avec trop de personnalisations.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modale Jakarta EE -->
+<div class="modal fade" id="jakartaModal" tabindex="-1" aria-labelledby="jakartaModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="jakartaModalLabel">Jakarta EE : Présentation, Avantages et Inconvénients</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Jakarta EE (anciennement Java EE) est un ensemble de spécifications pour le développement d'applications d'entreprise en Java, maintenu par la Eclipse Foundation.</p>
+                <div class="list-container">
+                    <h4 class="green">Avantages</h4>
+                    <ul class="pros-list">
+                        <li>Standard ouvert, soutenu par une large communauté.</li>
+                        <li>Compatible avec de nombreux serveurs (Payara, WildFly, etc.).</li>
+                        <li>Composants réutilisables (JPA, CDI, EJB...).</li>
+                    </ul>
+                </div>
+                <div class="list-container">
+                    <h4 class="red">Inconvénients</h4>
+                    <ul class="cons-list">
+                        <li>Peut être lourd pour de petites applications.</li>
+                        <li>Courbe d’apprentissage parfois élevée.</li>
+                        <li>Moins populaire que Spring dans l’écosystème Java.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modale Hibernate -->
+<div class="modal fade" id="hibernateModal" tabindex="-1" aria-labelledby="hibernateModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="hibernateModalLabel">Hibernate : Présentation, Avantages et Inconvénients</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Hibernate est un ORM (Object-Relational Mapping) pour Java, qui permet de manipuler les bases de données relationnelles via des objets Java.</p>
+                <div class="list-container">
+                    <h4 class="green">Avantages</h4>
+                    <ul class="pros-list">
+                        <li>Réduit la quantité de code SQL.</li>
+                        <li>Support des transactions, cache et lazy loading.</li>
+                        <li>Indépendant du SGBD (supporte MySQL, PostgreSQL, Oracle...)</li>
+                    </ul>
+                </div>
+                <div class="list-container">
+                    <h4 class="red">Inconvénients</h4>
+                    <ul class="cons-list">
+                        <li>Peut générer des requêtes inefficaces.</li>
+                        <li>Debug parfois difficile.</li>
+                        <li>Configuration initiale complexe.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modale SQL Server -->
+<div class="modal fade" id="sqlServerModal" tabindex="-1" aria-labelledby="sqlServerModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="sqlServerModalLabel">SQL Server : Présentation, Avantages et Inconvénients</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>SQL Server est un Système de Gestion de Base de Données (SGBD) développé par Microsoft, largement utilisé dans les environnements Windows.</p>
+                <div class="list-container">
+                    <h4 class="green">Avantages</h4>
+                    <ul class="pros-list">
+                        <li>Intégration native avec les outils Microsoft (Azure, .NET...)</li>
+                        <li>Interface graphique performante (SSMS).</li>
+                        <li>Haute sécurité et fiabilité.</li>
+                    </ul>
+                </div>
+                <div class="list-container">
+                    <h4 class="red">Inconvénients</h4>
+                    <ul class="cons-list">
+                        <li>Licence coûteuse pour les éditions complètes.</li>
+                        <li>Moins flexible que certains SGBD open source.</li>
+                        <li>Principalement orienté Windows (même si support Linux existe).</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <style>
     .btn-doc {
@@ -153,6 +329,15 @@
         background-color: #333;
         color: #fff;
         border-color: #888;
+    }
+
+    .video-frame {
+        width: 90vw;
+        max-height: 90vh;
+        border-radius: 12px;
+        box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+        margin-left: 4vw;
+        background-color: #000;
     }
 
     .custom-modal {

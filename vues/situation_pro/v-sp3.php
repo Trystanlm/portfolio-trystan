@@ -29,9 +29,29 @@
         <img src="./assets/img/mysql.png" alt="MySQL logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#mysqlModal">
         <img src="./assets/img/codeigniter.png" alt="CodeIgniter logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#codeigniterModal">
         <img src="./assets/img/bitbucket.png" alt="Trello logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#bitbucketModal">
+        <img src="./assets/img/jiraBlanc.png" alt="Trello logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#jiraModal">
+
     </div>
     <div class="accordion-container">
         <h3 class="text-gradient mb-4">Missions réalisées</h3>
+        <div class="accordion-group">
+            <button class="accordion">
+                Gestion de projet
+            </button>
+            <div class="panel">
+                <p>
+                    Ce projet à été réalisé en mode projet en équipe, avec une gestion de version via Bitbucket et un suivi des tâches via Jira. Le développement a été effectué en utilisant le framework CodeIgniter, avec une base de données MySQL pour stocker les informations relatives aux vins et aux jurés.
+                    <br><br>
+                    Voici les différentes branches de développement utilisées pour le projet :<br>
+                </p>
+                <img src="./assets/img/ccdv_branch_bitbucket.png" alt="Bitbucket" class="img-fluid mb-3">
+                <p>
+                    Voic une liste des différents commits réalisés sur la branche principale du projet :<br>
+                </p>
+                <img src="./assets/img/ccdv_commit_bitbucket.png" alt="Bitbucket" class="img-fluid mb-3">
+
+            </div>
+        </div>
         <div class="accordion-group">
             <button class="accordion">
                 Mission 1 : Initiation au FrameWork CodeIgniter
@@ -123,16 +143,20 @@
             </button>
             <div class="panel">
                 <p>
-                    Afin de répondre aux attentes du client l'application une fois finalisé à été déployer sur un serveur. </p>
-                <div class="mb-3">
-                    <button class="btn-doc" onclick="openModal('m1')">
-                        📄 Voir la documentation
-                    </button>
-                </div>
+                    Afin de répondre aux attentes du client l'application une fois finalisé à été déployer sur un serveur de production réaliser par nos camarades de la filière SISR
 
-                <div id="m1" class="custom-modal">
-                    <span class="close" onclick="closeModal('m1')">&times;</span>
-                    <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m1_cms.pdf" frameborder="0"></iframe>
+                </p>
+                <div class="mb-3">
+                    <button class="btn-doc" onclick="openModal('m5Video')">
+                        Voir la vidéo de rendu
+                    </button>
+                    <div id="m5Video" class="custom-modal">
+                        <span class="close" onclick="closeModal('m5Video')">&times;</span>
+                        <video class="video-frame" controls>
+                            <source src="./assets/videos/renduccdv.mp4" type="video/mp4">
+                            Votre navigateur ne supporte pas la lecture vidéo.
+                        </video>
+                    </div>
                 </div>
 
 
@@ -319,7 +343,35 @@
         </div>
     </div>
 </div>
-
+<div class="modal fade" id="jiraModal" tabindex="-1" aria-labelledby="jiraModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="jiraModalLabel">Jira : Présentation, Avantages et Inconvénients</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Jira est un outil de gestion de projet et de suivi des bugs, développé par Atlassian, souvent utilisé pour les méthodes agiles.</p>
+                <div class="list-container">
+                    <h4 class="green">Avantages</h4>
+                    <ul class="pros-list">
+                        <li>Très flexible et personnalisable.</li>
+                        <li>Intégration facile avec d'autres outils Atlassian.</li>
+                        <li>Gestion efficace des tâches et des workflows.</li>
+                    </ul>
+                </div>
+                <div class="list-container">
+                    <h4 class="red">Inconvénients</h4>
+                    <ul class="cons-list">
+                        <li>Courbe d'apprentissage élevée.</li>
+                        <li>Coût élevé pour les grandes équipes.</li>
+                        <li>Peut devenir complexe avec trop de personnalisations.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <style>
     .btn-doc {
         background-color: transparent;
@@ -359,6 +411,15 @@
         border-radius: 10px;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
         margin-left: 4vw;
+    }
+
+    .video-frame {
+        width: 90vw;
+        max-height: 90vh;
+        border-radius: 12px;
+        box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+        margin-left: 4vw;
+        background-color: #000;
     }
 
     .close {

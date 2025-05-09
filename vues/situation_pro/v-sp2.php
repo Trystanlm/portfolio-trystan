@@ -20,8 +20,12 @@
     <div class="d-flex justify-content-start gap-3 flex-wrap">
         <img src="./assets/img/netbeans.png" alt="Netbeans logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#netbeansModal">
         <img src="./assets/img/mysql.png" alt="MySQL logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#mysqlModal">
+        <img src="./assets/img/mariadb.png" alt="MariaDB logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#mariadbModal">
         <img src="./assets/img/trello.png" alt="Trello logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#trelloModal">
         <img src="./assets/img/bootstrap.png" alt="Bootstrap logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#bootstrapModal">
+        <img src="./assets/img/php.png" alt="PHP logo" class="rounded tech-logo" data-bs-toggle="modal" data-bs-target="#phpModal">
+
+
     </div>
 
 
@@ -201,6 +205,67 @@
                     <ul class="cons-list">
                         <li>Peut être lourd et lent sur des projets volumineux.</li>
                         <li>Moins d'extensions disponibles comparé à Eclipse ou IntelliJ.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modale PHP -->
+<div class="modal fade" id="phpModal" tabindex="-1" aria-labelledby="phpModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="phpModalLabel">PHP : Présentation, Avantages et Inconvénients</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>PHP est un langage de script côté serveur largement utilisé pour le développement web. Il est intégré dans HTML et particulièrement adapté aux applications web dynamiques.</p>
+                <div class="list-container">
+                    <h4 class="green">Avantages</h4>
+                    <ul class="pros-list">
+                        <li>Facile à apprendre et à utiliser.</li>
+                        <li>Large communauté et nombreux frameworks (Laravel, Symfony).</li>
+                        <li>Compatible avec la plupart des serveurs web et bases de données.</li>
+                    </ul>
+                </div>
+                <div class="list-container">
+                    <h4 class="red">Inconvénients</h4>
+                    <ul class="cons-list">
+                        <li>Historique de failles de sécurité si mal utilisé.</li>
+                        <li>Syntaxe parfois incohérente.</li>
+                        <li>Moins moderne comparé à certains langages récents (Node.js, Python).</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modale MariaDB -->
+<div class="modal fade" id="mariadbModal" tabindex="-1" aria-labelledby="mariadbModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="mariadbModalLabel">MariaDB : Présentation, Avantages et Inconvénients</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>MariaDB est un système de gestion de base de données relationnelle open source, dérivé de MySQL, développé par les créateurs originaux de MySQL.</p>
+                <div class="list-container">
+                    <h4 class="green">Avantages</h4>
+                    <ul class="pros-list">
+                        <li>Open source, gratuit et très performant.</li>
+                        <li>Compatible avec MySQL (remplacement facile).</li>
+                        <li>Améliorations de performance et de sécurité par rapport à MySQL.</li>
+                    </ul>
+                </div>
+                <div class="list-container">
+                    <h4 class="red">Inconvénients</h4>
+                    <ul class="cons-list">
+                        <li>Moins d’outils/support commerciaux comparé à MySQL (Oracle).</li>
+                        <li>Migration potentiellement délicate pour certains projets spécifiques.</li>
                     </ul>
                 </div>
             </div>
