@@ -64,11 +64,16 @@
             <div class="panel">
                 <p>Ce sprint a abouti à l'implémentation de la fonctionnalité permettant aux agents de relever les consommations des vannes.</p>
                 <div class="mb-3">
-                    <button class="btn-doc" onclick="openModal('m3')">📄 Voir la documentation</button>
-                </div>
-                <div id="m3" class="custom-modal">
-                    <span class="close" onclick="closeModal('m3')">&times;</span>
-                    <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m4_wp.pdf" frameborder="0"></iframe>
+                    <button class="btn-doc" onclick="openModal('m5Video')">
+                        Voir la vidéo de rendu
+                    </button>
+                    <div id="m5Video" class="custom-modal">
+                        <span class="close" onclick="closeModal('m5Video')">&times;</span>
+                        <video class="video-frame" controls>
+                            <source src="./assets/videos/renduajtreleve.mp4" type="video/mp4">
+                            Votre navigateur ne supporte pas la lecture vidéo.
+                        </video>
+                    </div>
                 </div>
             </div>
         </div>
@@ -78,11 +83,16 @@
             <div class="panel">
                 <p>L’objectif de ce sprint est de mettre en place la récupération des données contenues dans la base de données de l’application Web.</p>
                 <div class="mb-3">
-                    <button class="btn-doc" onclick="openModal('m4')">📄 Voir la documentation</button>
-                </div>
-                <div id="m4" class="custom-modal">
-                    <span class="close" onclick="closeModal('m4')">&times;</span>
-                    <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m4_wp.pdf" frameborder="0"></iframe>
+                    <button class="btn-doc" onclick="openModal('m5Video')">
+                        Voir la vidéo de rendu
+                    </button>
+                    <div id="m5Video" class="custom-modal">
+                        <span class="close" onclick="closeModal('m5Video')">&times;</span>
+                        <video class="video-frame" controls>
+                            <source src="./assets/videos/renduimport.mp4" type="video/mp4">
+                            Votre navigateur ne supporte pas la lecture vidéo.
+                        </video>
+                    </div>
                 </div>
             </div>
         </div>
@@ -92,11 +102,16 @@
             <div class="panel">
                 <p>Ce sprint vise à permettre l’envoi des données extraites de la base de données de l’application Web.</p>
                 <div class="mb-3">
-                    <button class="btn-doc" onclick="openModal('m5')">📄 Voir la documentation</button>
-                </div>
-                <div id="m5" class="custom-modal">
-                    <span class="close" onclick="closeModal('m5')">&times;</span>
-                    <iframe class="pdf-frame" src="./assets/documents/situations/sp1_m4_wp.pdf" frameborder="0"></iframe>
+                    <button class="btn-doc" onclick="openModal('m5Video')">
+                        Voir la vidéo de rendu
+                    </button>
+                    <div id="m5Video" class="custom-modal">
+                        <span class="close" onclick="closeModal('m5Video')">&times;</span>
+                        <video class="video-frame" controls>
+                            <source src="./assets/videos/renduexport.mp4" type="video/mp4">
+                            Votre navigateur ne supporte pas la lecture vidéo.
+                        </video>
+                    </div>
                 </div>
             </div>
         </div>
@@ -446,6 +461,15 @@
         font-weight: bold;
         font-size: 1.2em;
         color: #fff;
+    }
+
+    .video-frame {
+        width: 90vw;
+        max-height: 90vh;
+        border-radius: 12px;
+        box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+        margin-left: 4vw;
+        background-color: #000;
     }
 
     .competence-table .blue {
