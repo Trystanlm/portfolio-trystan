@@ -1,4 +1,6 @@
 <?php
+echo "Contrôleur chargé";
+die;
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
