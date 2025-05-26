@@ -1,16 +1,12 @@
 <nav class="navbar navbar-expand-lg navbar-custom">
     <div class="container">
-        <!-- Titre / Nom de la marque -->
         <a class="navbar-brand" href="index.php?uc=accueil" style="color: #8C8C8C; margin-right: 30px;">Trystan Le Marec</a>
-
-        <!-- Bouton burger -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!-- Contenu du menu -->
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav"> <!-- ms-auto pour aligner le menu à droite -->
+            <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="index.php?uc=accueil">Accueil</a>
                 </li>
@@ -32,9 +28,6 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.php?uc=veille_techno">Veille Technologique</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.php?uc=contact">Contact</a>
                 </li>
             </ul>
         </div>

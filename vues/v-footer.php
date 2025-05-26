@@ -12,6 +12,10 @@
           <a href="https://www.instagram.com/trystan.lm_/">
             <i class="icon ion-social-instagram"></i>
           </a>
+
+          <a href="mailto:trystan5lemarec@gmail.com">
+            <i class="icon ion-ios-email"></i>
+          </a>
         </div>
       </div>
       <p class="copyright">Trystan Le Marec © 2025</p>
