@@ -1,14 +1,28 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    echo "POST bien reçu 👌<br>";
-    echo "<pre>";
-    print_r($_POST);
-    echo "</pre>";
-    die();
-} else {
-    echo "Rien reçu...";
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+$mail = new PHPMailer(true);
+
+try {
+    $mail->isSMTP();
+    $mail->Host = 'smtp.gmail.com';
+    $mail->SMTPAuth = true;
+    $mail->Username = 'tonadresse@gmail.com'; // ✅ met ton adresse
+    $mail->Password = 'ton_mot_de_passe_app'; // ✅ mot de passe d'application Google
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+    $mail->Port = 587;
+
+    $mail->setFrom('tonadresse@gmail.com', 'Ton Portfolio');
+    $mail->addAddress('tonadresse@gmail.com'); // où tu reçois le mail
+    $mail->Subject = 'Test PHPMailer';
+    $mail->Body    = 'Ceci est un test simple.';
+
+    $mail->send();
+    echo "✅ Message envoyé avec succès";
+} catch (Exception $e) {
+    echo "❌ Erreur lors de l'envoi : " . $mail->ErrorInfo;
 }
