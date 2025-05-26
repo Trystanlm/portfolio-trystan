@@ -11,13 +11,13 @@ try {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'tonadresse@gmail.com'; // ✅ met ton adresse
-    $mail->Password = 'ton_mot_de_passe_app'; // ✅ mot de passe d'application Google
+    $mail->Username = 'trystan5lemarec@gmail.com'; // ✅ met ton adresse
+    $mail->Password = 'rpur akow pjmo mebl'; // ✅ mot de passe d'application Google
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port = 587;
 
-    $mail->setFrom('tonadresse@gmail.com', 'Ton Portfolio');
-    $mail->addAddress('tonadresse@gmail.com'); // où tu reçois le mail
+    $mail->setFrom('trystan5lemarec@gmail.com', 'trystanportefolio.fr');
+    $mail->addAddress('trystan5lemarec@gmail.com'); // où tu reçois le mail
     $mail->Subject = 'Test PHPMailer';
     $mail->Body    = 'Ceci est un test simple.';
 
