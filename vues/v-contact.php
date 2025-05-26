@@ -16,6 +16,12 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-md-6 mb-3">
+                <label class="form-label text-white" for="email">Email</label>
+                <input id="email" class="form-control custom-input" name="email" type="text" required>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6 mb-3">
                 <label class="form-label text-white" for="message">Message</label>
                 <textarea id="message" class="form-control custom-input" name="message" rows="6" required></textarea>
             </div>

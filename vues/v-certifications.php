@@ -42,7 +42,13 @@
                 <button class="btn-certificate" onclick="openModal('certif-javascript')">Voir le certificat</button>
             </div>
         </div>
-
+        <div class=" timeline-item right">
+            <div class="timeline-content">
+                <h3>Certification React</h3>
+                <p>Création d'un site web avec React <br>_______<br>Février - 2025</p>
+                <button class="btn-certificate" onclick="openModal('certif-react')">Voir le certificat</button>
+            </div>
+        </div>
 
 
     </div>
@@ -68,6 +74,10 @@
 <div id="certif-python" class="modal">
     <span class="close" onclick="closeModal('certif-python')">&times;</span>
     <img class="modal-content" src="./assets/img/certifications/certif_python.png" alt="Certificat Python">
+</div>
+<div id="certif-react" class="modal">
+    <span class="close" onclick="closeModal('certif-react')">&times;</span>
+    <img class="modal-content" src="./assets/img/certifications/certif_react.png" alt="Certificat React">
 </div>
 <style>
     .modal {

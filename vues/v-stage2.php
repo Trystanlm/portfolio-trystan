@@ -61,6 +61,12 @@
                 <li>Traiter les demandes liées aux API et services web</li>
                 <li class="fw-bold">Réaliser des tests d’intégration et de validation</li>
                 <li>Déployer et documenter un service informatique</li>
+                <li class="fw-bold"><a onclick=" openModal('exaegis')" class="text-danger">
+                        Répondre</a> aux incidents et aux demandes d'assistances et d'évolution</li>
+                <div id="exaegis" class="modal-2">
+                    <span class="close" onclick="closeModal('exaegis')">&times;</span>
+                    <img class="modal-content-2" src="./assets/img/exaegis_ticket.png" alt="Save TEKIN">
+                </div>
             </ul>
         </div>
     </div>
@@ -420,6 +426,47 @@
         /* Supprime les puces */
     }
 
+    .modal-2 {
+        display: none;
+        position: fixed;
+        z-index: 999;
+        padding-top: 60px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(4px);
+    }
+
+    .modal-content-2 {
+        display: block;
+        margin: auto;
+        width: auto;
+        height: auto;
+        max-width: 90vw;
+        max-height: 90vh;
+        object-fit: contain;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    }
+
+    .close {
+        position: absolute;
+        top: 20px;
+        right: 35px;
+        color: #fff;
+        font-size: 40px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .close:hover {
+        color: #ff6a00;
+    }
+
     .cons-list li {
         margin-bottom: 10px;
         position: relative;
@@ -473,3 +520,12 @@
         box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
     }
 </style>
+<script>
+    function openModal(id) {
+        document.getElementById(id).style.display = "block";
+    }
+
+    function closeModal(id) {
+        document.getElementById(id).style.display = "none";
+    }
+</script>

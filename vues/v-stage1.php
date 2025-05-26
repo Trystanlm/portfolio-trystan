@@ -35,7 +35,8 @@
                 <li><span class="fw-bold">Recherches et protototypage de Frameworks graphiques JS</span></li>
                 <li><span class="fw-bold">Mise à jour du site WordPress de l'entreprise</span></li>
                 <li><span class="fw-bold">Réalisation d'une documentation pour mettre le site à jour</span></li>
-                <li><span class="fw-bold">Réalisation de scripts Python pour la gestion de données</span></li>
+                <li><span class="fw-bold">Réalisation de scripts Python pour la <a onclick="openModal('tekin_save')" class="text-danger">
+                            gestion de données</a></span></li>
             </ul>
         </div>
     </div>
@@ -100,7 +101,10 @@
         </div>
     </div>
 </div>
-
+<div id="tekin_save" class="modal-2">
+    <span class="close" onclick="closeModal('tekin_save')">&times;</span>
+    <img class="modal-content-2" src="./assets/img/tekin_save.png" alt="Save TEKIN">
+</div>
 
 <!-- Modal Vue-->
 <div class="modal fade" id="vueModal" tabindex="-1" aria-labelledby="vueModalLabel" aria-hidden="true">
@@ -472,4 +476,55 @@
         background-color: rgba(255, 255, 255, 0.03);
         box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
     }
+
+
+    .modal-2 {
+        display: none;
+        position: fixed;
+        z-index: 999;
+        padding-top: 60px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(4px);
+    }
+
+    .modal-content-2 {
+        display: block;
+        margin: auto;
+        width: auto;
+        height: auto;
+        max-width: 90vw;
+        max-height: 90vh;
+        object-fit: contain;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    }
+
+    .close {
+        position: absolute;
+        top: 20px;
+        right: 35px;
+        color: #fff;
+        font-size: 40px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .close:hover {
+        color: #ff6a00;
+    }
 </style>
+<script>
+    function openModal(id) {
+        document.getElementById(id).style.display = "block";
+    }
+
+    function closeModal(id) {
+        document.getElementById(id).style.display = "none";
+    }
+</script>

@@ -18,11 +18,12 @@
                     <a class="nav-link" href="index.php?uc=profil">Profil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php?uc=certif">Certifications</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="index.php?uc=bts">BTS SIO</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.php?uc=certif">Certifications</a>
+                </li>
+
                 <li class="nav-item">
                     <a class="nav-link" href="index.php?uc=stage">Stages</a>
                 </li>
