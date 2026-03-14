@@ -2,7 +2,7 @@
     <!-- À propos de moi -->
     <h4 class="mb-3">À PROPOS DE MOI <br>____</h4>
     <p>
-        Je m’appelle Trystan Le Marec, âgé de 19 ans et actuellement étudiant à Tours, en deuxième année de BTS SIO spécialité SLAM.
+        Je m’appelle Trystan Le Marec, âgé de 20 ans. Après avoir obtenu mon BTS SIO option SLAM en France, je poursuis maintenant mes études au Canada en Techniques de l'informatique (DEC).
         J’ai toujours été attiré par l’informatique et les nouvelles technologies. C’est tout naturellement que je me suis tourné vers ce secteur d’études.
     </p>
     <div class="d-flex gap-3 mb-4 flex-wrap">
@@ -102,7 +102,7 @@
                         <div class="flip-card-front card text-white bg-secondary bg-opacity-10 h-100 p-4 text-center border rounded-3">
                             <i class="bi bi-diagram-3 fs-2"></i>
                             <h5 class="mt-3">Programmation Orientée Objet</h5>
-                            <p>C# / Java</p>
+                            <p>C# / Java / Rust</p>
                         </div>
                         <div class="flip-card-back card text-white bg-dark h-100 p-4 border rounded-3">
                             <h5 class="mb-3 comptxt">Détails</h5>
@@ -110,6 +110,7 @@
                                 <li>✔ Classes, objets, constructeurs</li>
                                 <li>✔ Encapsulation, héritage</li>
                                 <li>✔ MVC (structure de projet)</li>
+                                <li>✔ Rust (ownership, structs, traits)</li>
                             </ul>
                         </div>
                     </div>
@@ -123,12 +124,14 @@
                         <div class="flip-card-front card text-white bg-secondary bg-opacity-10 h-100 p-4 text-center border rounded-3">
                             <i class="bi bi-layers fs-2"></i>
                             <h5 class="mt-3">Frameworks</h5>
-                            <p>CodeIgniter, PDO Php, Bootstrap</p>
+                            <p>CodeIgniter, Django, Hibernate</p>
                         </div>
                         <div class="flip-card-back card text-white bg-dark h-100 p-4 border rounded-3">
                             <h5 class="mb-3 comptxt">Détails</h5>
                             <ul class="list-unstyled">
-                                <li>✔ CodeIgniter</li>
+                                <li>✔ CodeIgniter (PHP MVC)</li>
+                                <li>✔ Django (Python web)</li>
+                                <li>✔ Hibernate (ORM Java)</li>
                                 <li>✔ PDO PHP</li>
                                 <li>✔ Bootstrap 5 (UI responsive)</li>
                             </ul>
@@ -174,6 +177,94 @@
                                 <li>✔ GitHub / GitLab / BitBucket</li>
                                 <li>✔ Jira</li>
                                 <li>✔ Branches / merges / pull requests</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carte 7 : Développement Mobile -->
+            <div class="col-md-4">
+                <div class="flip-card h-100">
+                    <div class="flip-card-inner h-100">
+                        <div class="flip-card-front card text-white bg-secondary bg-opacity-10 h-100 p-4 text-center border rounded-3">
+                            <i class="bi bi-phone fs-2"></i>
+                            <h5 class="mt-3">Développement Mobile</h5>
+                            <p>React Native / Expo / TypeScript</p>
+                        </div>
+                        <div class="flip-card-back card text-white bg-dark h-100 p-4 border rounded-3">
+                            <h5 class="mb-3 comptxt">Détails</h5>
+                            <ul class="list-unstyled">
+                                <li>✔ React Native (Expo Router)</li>
+                                <li>✔ TypeScript / TSX</li>
+                                <li>✔ Navigation par onglets & stack</li>
+                                <li>✔ UI dark theme & responsive</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carte 8 : Firebase & Cloud -->
+            <div class="col-md-4">
+                <div class="flip-card h-100">
+                    <div class="flip-card-inner h-100">
+                        <div class="flip-card-front card text-white bg-secondary bg-opacity-10 h-100 p-4 text-center border rounded-3">
+                            <i class="bi bi-cloud fs-2"></i>
+                            <h5 class="mt-3">Firebase & Cloud</h5>
+                            <p>Authentication / Firestore</p>
+                        </div>
+                        <div class="flip-card-back card text-white bg-dark h-100 p-4 border rounded-3">
+                            <h5 class="mb-3 comptxt">Détails</h5>
+                            <ul class="list-unstyled">
+                                <li>✔ Firebase Authentication</li>
+                                <li>✔ Firestore (base NoSQL)</li>
+                                <li>✔ Gestion d'utilisateurs & rôles</li>
+                                <li>✔ Intégration avec Expo</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carte 9 : Intelligence Artificielle -->
+            <div class="col-md-4">
+                <div class="flip-card h-100">
+                    <div class="flip-card-inner h-100">
+                        <div class="flip-card-front card text-white bg-secondary bg-opacity-10 h-100 p-4 text-center border rounded-3">
+                            <i class="bi bi-robot fs-2"></i>
+                            <h5 class="mt-3">Intelligence Artificielle</h5>
+                            <p>Python / Machine Learning / IA</p>
+                        </div>
+                        <div class="flip-card-back card text-white bg-dark h-100 p-4 border rounded-3">
+                            <h5 class="mb-3 comptxt">Détails</h5>
+                            <ul class="list-unstyled">
+                                <li>✔ Python (bases & algorithmique)</li>
+                                <li>✔ Concepts d'apprentissage machine</li>
+                                <li>✔ Intégration d'API d'IA</li>
+                                <li>✔ Traitement de données</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carte 10 : Jeux Vidéo & 3D -->
+            <div class="col-md-4">
+                <div class="flip-card h-100">
+                    <div class="flip-card-inner h-100">
+                        <div class="flip-card-front card text-white bg-secondary bg-opacity-10 h-100 p-4 text-center border rounded-3">
+                            <i class="bi bi-controller fs-2"></i>
+                            <h5 class="mt-3">Jeux Vidéo & 3D</h5>
+                            <p>Unity / Blender / VR</p>
+                        </div>
+                        <div class="flip-card-back card text-white bg-dark h-100 p-4 border rounded-3">
+                            <h5 class="mb-3 comptxt">Détails</h5>
+                            <ul class="list-unstyled">
+                                <li>✔ Unity (C# / GameObjects)</li>
+                                <li>✔ Blender (modélisation 3D)</li>
+                                <li>✔ Réalité Virtuelle (XR/VR)</li>
+                                <li>✔ Level design & scènes</li>
                             </ul>
                         </div>
                     </div>

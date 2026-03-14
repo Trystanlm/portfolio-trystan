@@ -21,13 +21,7 @@
                     <a class="nav-link" href="index.php?uc=certif">Certifications</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php?uc=bts">BTS SIO</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.php?uc=stage">Stages</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.php?uc=situation">Situations Professionnelles</a>
+                    <a class="nav-link" href="index.php?uc=etudes">Études</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.php?uc=veille_techno">Veille Technologique</a>

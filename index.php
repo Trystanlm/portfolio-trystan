@@ -62,7 +62,10 @@
                 include 'vues/v-certifications.php'; // On inclut la vue de contact
                 break;
             case 'bts':
-                include 'vues/v-btssio.php'; // On inclut la vue de bts
+                include 'vues/v-btssio.php'; // On inclut la vue de bts (ancien)
+                break;
+            case 'etudes':
+                include 'vues/v-etudes.php'; // On inclut la vue des études
                 break;
             case 'stage':
                 include 'vues/v-stage.php'; // On inclut la vue de stage

@@ -5,10 +5,10 @@
     <div class="wrapper">
         <div class="static-txt">Je suis</div>
         <ul class="dynamic-txts">
-            <li><span>Étudiant</span></li>     
-            <li><span>En BTS SIO</span></li>   
-            <li><span>option</span></li>   
-            <li><span>SLAM</span></li>       
+            <li><span>Étudiant</span></li>
+            <li><span>En Techniques</span></li>
+            <li><span>de l'informatique</span></li>
+            <li><span>au Canada</span></li>
         </ul>
     </div>
 </div>
