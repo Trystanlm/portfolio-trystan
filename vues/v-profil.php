@@ -278,7 +278,7 @@
 </div>
 <div id="cv" class="modal">
     <span class="close" onclick="closeModal('cv')">&times;</span>
-    <img class="modal-content" src="./assets/img/cv.png" alt="Certificat Anssi">
+    <img class="modal-content" src="./assets/img/cv.png" alt="CV de Trystan Le Marec">
 </div>
 <style>
     .modal {
